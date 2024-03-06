@@ -11,4 +11,5 @@ dependencies:
   - vtk
   - certifi
   - pymol-open-source
+  - fpocket==4.0
 prefix: /home/yavuz/anaconda3/envs/mef_allosite
