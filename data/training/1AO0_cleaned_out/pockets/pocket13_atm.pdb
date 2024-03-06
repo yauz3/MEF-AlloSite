@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0643
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8684
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5140
+HEADER 5  - Mean B-factor of pocket residues  : 0.5310
+HEADER 6  - Hydrophobicity Score              : 2.1111
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 264.7978
+HEADER 10  -Pocket volume (convex hull)       : 12.3152
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0909
+ATOM   1942   CB SER A 257      -1.159   0.503  80.857  0.00  0.00           C 0
+ATOM   1941    O SER A 257      -1.660   3.797  80.926  0.00  0.00           O 0
+ATOM   1997   NZ LYS A 264      -6.970   4.411  77.694  0.00  0.00           N 1
+ATOM   1975  ND2 ASN A 261      -4.603   3.929  82.541  0.44  6.56           N 0
+ATOM   5725  OE1 GLU B 300      -2.200   0.804  74.773  0.89  1.07           O 0
+ATOM   5726  OE2 GLU B 300      -4.266   0.340  74.323  0.77  6.43           O 1
+ATOM   1966   CD LYS A 260      -2.606   4.165  75.656  0.00  0.00           C 0
+ATOM   5995    O GLY B 334      -0.141  -4.554  80.216  0.37  6.43           O 0
+ATOM   1943   OG SER A 257      -0.881  -0.651  80.064  0.61  5.36           O 0
+ATOM   6030   CE LYS B 339      -6.338  -5.733  77.162  0.00  0.00           C 0
+ATOM   6031   NZ LYS B 339      -7.554  -5.510  77.969  0.42  9.84           N 1
+ATOM   5724   CD GLU B 300      -3.053   0.139  74.156  0.00  0.00           C 0
+ATOM   6001  CG1 VAL B 335      -0.160  -3.615  75.185  0.00  0.00           C 0
+ATOM   6002  CG2 VAL B 335       1.051  -2.625  77.115  0.00  0.00           C 0
+ATOM   1964   CB LYS A 260      -1.586   5.144  77.758  0.00  0.00           C 0
+ATOM   5999    O VAL B 335      -2.307  -5.529  76.534  0.73  4.29           O 0
+ATOM   5559  CG1 VAL B 276      -4.662  -3.771  73.200  0.00  0.00           C 0
+ATOM   5997   CA VAL B 335      -0.212  -4.782  77.467  0.00  0.00           C 0
+ATOM   1939   CA SER A 257      -0.582   1.765  80.225  0.00  0.00           C 0
+TER
+END

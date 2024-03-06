@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : 0.0286
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9421
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5411
+HEADER 5  - Mean B-factor of pocket residues  : 0.6454
+HEADER 6  - Hydrophobicity Score              : 12.3750
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7500
+HEADER 9  - Pocket volume (Monte Carlo)       : 279.5716
+HEADER 10  -Pocket volume (convex hull)       : 11.8139
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1176
+ATOM   2570   CB GLU I 333      27.714  39.964  47.226  0.00  0.00           C 0
+ATOM   2575    N GLN I 334      27.015  41.540  44.689  0.64  2.19           N 0
+ATOM   2572   CD GLU I 333      29.372  41.043  48.848  0.00  0.00           C 0
+ATOM   2573  OE1 GLU I 333      30.024  39.977  48.882  0.00  0.00           O 0
+ATOM   2582  NE2 GLN I 334      30.139  44.012  42.351  0.00  0.00           N 0
+ATOM   2574  OE2 GLU I 333      29.850  42.134  49.233  0.00  0.00           O 1
+ATOM   2546    O SER I 330      28.705  37.659  43.078  0.00  0.00           O 0
+ATOM   2539  CD2 PHE I 329      31.566  38.818  39.363  0.00  0.00           C 0
+ATOM   2536   CB PHE I 329      33.116  37.271  40.592  0.00  0.00           C 0
+ATOM   2576   CA GLN I 334      27.016  42.755  43.890  0.00  0.00           C 0
+ATOM    411  CE1 HIS I  65      28.187  47.315  44.247  0.00  0.00           C 0
+ATOM   2605   CB ASP I 337      25.469  45.807  46.646  0.00  0.00           C 0
+ATOM   2569    O GLU I 333      25.541  42.317  46.201  0.00  0.00           O 0
+ATOM   2571   CG GLU I 333      27.940  41.017  48.316  0.00  0.00           C 0
+ATOM    419  CD1 LEU I  66      33.117  43.358  40.000  0.00  0.00           C 0
+ATOM   2579   CB GLN I 334      27.835  42.523  42.626  0.00  0.00           C 0
+ATOM    438   CB SER I  69      33.360  46.734  44.715  0.00  0.00           C 0
+ATOM    439   OG SER I  69      33.026  46.219  43.432  0.64  2.14           O 0
+ATOM    437    O SER I  69      35.977  45.844  45.375  0.00  0.00           O 0
+TER
+END

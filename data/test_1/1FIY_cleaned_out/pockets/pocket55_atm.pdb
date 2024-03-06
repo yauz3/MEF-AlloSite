@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    55:
+HEADER 0  - Pocket Score                      : -0.1448
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 4.0284
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6166
+HEADER 5  - Mean B-factor of pocket residues  : 0.4785
+HEADER 6  - Hydrophobicity Score              : 13.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 310.1303
+HEADER 10  -Pocket volume (convex hull)       : 5.3612
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1875
+ATOM    827   CD LYS A 110      25.814  57.620   7.990  0.00  0.00           C 0
+ATOM   4991  OE1 GLU A 640      26.202  53.861   5.988  0.73  2.14           O 0
+ATOM    829   NZ LYS A 110      24.088  58.141   6.245  0.81  9.84           N 1
+ATOM    791   NE ARG A 106      32.667  57.382   3.924  0.65  4.37           N 0
+ATOM    787    O ARG A 106      30.690  56.989   9.372  0.64  5.36           O 0
+ATOM    788   CB ARG A 106      32.998  57.501   7.135  0.00  0.00           C 0
+ATOM   4992  OE2 GLU A 640      24.198  54.843   5.785  0.46  3.21           O 1
+ATOM   4641  CE1 HIS A 593      27.630  52.916   2.528  0.00  0.00           C 0
+ATOM   4667  CD1 LEU A 597      23.929  52.763   2.464  0.00  0.00           C 0
+ATOM   4644   CA ALA A 594      24.764  52.259  -2.281  0.00  0.00           C 0
+ATOM   4647   CB ALA A 594      24.859  53.212  -3.436  0.00  0.00           C 0
+ATOM   4640  ND1 HIS A 593      27.571  52.632   1.241  0.38  6.56           N 0
+ATOM    790   CD ARG A 106      32.606  56.327   4.946  0.00  0.00           C 0
+ATOM    801  OG1 THR A 107      30.205  52.985   6.729  0.49  1.07           O 0
+ATOM    795    N THR A 107      31.399  55.050   8.464  0.00  0.00           N 0
+ATOM    786    C ARG A 106      31.561  56.317   8.817  0.00  0.00           C 0
+ATOM    796   CA THR A 107      30.153  54.328   8.737  0.00  0.00           C 0
+TER
+END

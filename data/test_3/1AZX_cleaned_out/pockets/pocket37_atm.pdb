@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    37:
+HEADER 0  - Pocket Score                      : -0.0151
+HEADER 1  - Drug Score                        : 0.0014
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.0489
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4973
+HEADER 5  - Mean B-factor of pocket residues  : 0.7679
+HEADER 6  - Hydrophobicity Score              : 18.3750
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.8750
+HEADER 9  - Pocket volume (Monte Carlo)       : 289.5194
+HEADER 10  -Pocket volume (convex hull)       : 7.6006
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4348
+ATOM   2840  CD1 PHE I 368      29.731  31.176  41.390  0.00  0.00           C 0
+ATOM   2842  CE1 PHE I 368      29.733  30.789  42.728  0.00  0.00           C 0
+ATOM   1511   CD PRO I 203      33.348  28.522  42.843  0.00  0.00           C 0
+ATOM   2548   OG SER I 330      30.034  33.712  43.738  0.23  7.50           O 0
+ATOM   1509   CB PRO I 203      35.232  28.015  44.131  0.00  0.00           C 0
+ATOM   2531    O GLY I 328      35.536  35.317  40.156  0.00  0.00           O 0
+ATOM   1485    O ASP I 200      35.818  27.890  38.643  0.43  7.50           O 0
+ATOM   1493    O VAL I 201      32.743  29.211  39.512  0.32  5.36           O 0
+ATOM   2529   CA GLY I 328      35.243  34.277  38.035  0.00  0.00           C 0
+ATOM   1489  OD2 ASP I 200      38.421  27.199  40.150  0.00  0.00           O 1
+ATOM   2863   NZ LYS I 370      38.125  31.682  35.411  0.18  2.19           N 1
+ATOM   1510   CG PRO I 203      33.979  28.837  44.173  0.00  0.00           C 0
+ATOM   2532    N PHE I 329      33.424  35.138  39.395  0.65  3.28           N 0
+ATOM   2533   CA PHE I 329      32.838  35.764  40.574  0.00  0.00           C 0
+ATOM   2534    C PHE I 329      31.348  35.498  40.733  0.00  0.00           C 0
+ATOM   2530    C GLY I 328      34.736  34.940  39.297  0.00  0.00           C 0
+ATOM   2528    N GLY I 328      36.258  35.144  37.478  0.36  2.19           N 0
+TER
+END

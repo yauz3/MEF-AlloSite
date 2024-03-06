@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    36:
+HEADER 0  - Pocket Score                      : -0.0971
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 4.0116
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5968
+HEADER 5  - Mean B-factor of pocket residues  : 0.6430
+HEADER 6  - Hydrophobicity Score              : -15.0000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 152.3338
+HEADER 10  -Pocket volume (convex hull)       : 0.3122
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1765
+ATOM   8061   CA ALA A1056      34.576  -2.025  60.622  0.00  0.00           C 0
+ATOM   8055    O ASN A1055      34.980  -4.370  59.209  0.00  0.00           O 0
+ATOM   8064   CB ALA A1056      35.712  -1.004  60.592  0.00  0.00           C 0
+ATOM   8092  OE1 GLU A1060      35.516  -5.237  66.098  0.00  0.00           O 0
+ATOM   8065    N ASP A1057      33.677  -1.570  62.808  0.50  3.28           N 0
+ATOM   7047   CG GLU A 926      38.401   0.442  63.804  0.00  0.00           C 0
+ATOM   7050  OE2 GLU A 926      38.564  -0.372  66.043  0.00  0.00           O 1
+ATOM   7018  NH2 ARG A 922      39.011  -3.135  66.838  0.45  3.28           N 0
+ATOM   7046   CB GLU A 926      39.253   0.474  62.535  0.00  0.00           C 0
+ATOM   7025  OG1 THR A 923      41.188  -1.287  60.121  0.15  6.43           O 0
+ATOM   8068    O ASP A1057      34.130  -0.547  65.643  0.62  1.07           O 0
+ATOM   7048   CD GLU A 926      39.106  -0.193  64.974  0.00  0.00           C 0
+ATOM   7049  OE1 GLU A 926      40.354  -0.508  64.731  0.00  0.00           O 0
+TER
+END

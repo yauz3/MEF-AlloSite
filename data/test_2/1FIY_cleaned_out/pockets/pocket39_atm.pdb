@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    39:
+HEADER 0  - Pocket Score                      : -0.0490
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 4.1049
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6425
+HEADER 5  - Mean B-factor of pocket residues  : 0.4235
+HEADER 6  - Hydrophobicity Score              : 9.5714
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 5.2857
+HEADER 9  - Pocket volume (Monte Carlo)       : 297.6591
+HEADER 10  -Pocket volume (convex hull)       : 10.5729
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.2857
+ATOM   6065   CD GLU A 780      26.521  53.920 -38.004  0.00  0.00           C 0
+ATOM   6027    O LEU A 776      27.517  53.393 -33.092  0.64  2.14           O 0
+ATOM   6066  OE1 GLU A 780      27.740  54.212 -38.104  0.54  7.50           O 0
+ATOM   6067  OE2 GLU A 780      25.543  54.603 -38.348  0.00  0.00           O 1
+ATOM   6228   CB ARG A 799      21.943  52.925 -32.713  0.00  0.00           C 0
+ATOM   6267  OE1 GLU A 803      20.805  59.268 -32.052  0.70  7.50           O 0
+ATOM   6268  OE2 GLU A 803      22.931  59.459 -31.555  0.00  0.00           O 1
+ATOM   6266   CD GLU A 803      21.780  59.021 -31.308  0.00  0.00           C 0
+ATOM   6233  NH1 ARG A 799      23.334  52.023 -36.499  0.86  2.19           N 1
+ATOM   6202   CB LYS A 796      19.741  53.058 -37.562  0.00  0.00           C 0
+ATOM   6199   CA LYS A 796      19.964  52.146 -36.396  0.00  0.00           C 0
+ATOM   6030  CD1 LEU A 776      24.257  55.767 -29.538  0.00  0.00           C 0
+ATOM   6235    N ASN A 800      19.252  54.436 -32.022  0.75  1.09           N 0
+ATOM   6028   CB LEU A 776      26.134  54.636 -30.760  0.00  0.00           C 0
+ATOM   6033   CA TRP A 777      30.042  54.507 -33.239  0.00  0.00           C 0
+ATOM   6032    N TRP A 777      29.258  54.351 -32.003  0.50  4.37           N 0
+ATOM   6026    C LEU A 776      28.053  53.790 -32.057  0.00  0.00           C 0
+ATOM   6201    O LYS A 796      18.952  53.018 -34.421  0.71  2.14           O 0
+ATOM   6239   CB ASN A 800      17.660  56.161 -32.935  0.00  0.00           C 0
+ATOM   6230   CD ARG A 799      24.150  52.495 -33.724  0.00  0.00           C 0
+TER
+END

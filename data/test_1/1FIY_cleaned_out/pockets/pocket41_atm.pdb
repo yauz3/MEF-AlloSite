@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    41:
+HEADER 0  - Pocket Score                      : -0.0498
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.7808
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4469
+HEADER 5  - Mean B-factor of pocket residues  : 0.7399
+HEADER 6  - Hydrophobicity Score              : 36.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 6.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 154.8774
+HEADER 10  -Pocket volume (convex hull)       : 2.4860
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.5556
+ATOM   6104   CB GLN A 784      29.540  49.285 -41.373  0.00  0.00           C 0
+ATOM    385  NH2 ARG A  53      32.582  52.566 -39.047  0.00  0.00           N 0
+ATOM   6074  CD1 TYR A 781      34.025  49.948 -38.275  0.00  0.00           C 0
+ATOM    419  CD2 LEU A  57      36.614  49.204 -42.313  0.00  0.00           C 0
+ATOM   6178  CH2 TRP A 792      25.863  49.178 -45.242  0.00  0.00           C 0
+ATOM   6107  NE2 GLN A 784      29.723  52.553 -42.672  0.00  0.00           N 0
+ATOM   6105   CG GLN A 784      28.735  50.516 -41.743  0.00  0.00           C 0
+ATOM   6103    O GLN A 784      29.891  46.761 -43.237  0.26  6.43           O 0
+ATOM   6115   CD ARG A 785      34.372  46.704 -41.502  0.00  0.00           C 0
+ATOM    417   CG LEU A  57      36.540  49.387 -43.825  0.00  0.00           C 0
+ATOM   6106   CD GLN A 784      29.582  51.781 -41.601  0.00  0.00           C 0
+ATOM    418  CD1 LEU A  57      35.933  48.153 -44.507  0.00  0.00           C 0
+ATOM    382   NE ARG A  53      33.617  53.852 -40.666  0.23  3.28           N 0
+ATOM    380   CG ARG A  53      34.842  54.706 -42.605  0.00  0.00           C 0
+ATOM   6108  OE1 GLN A 784      30.110  52.045 -40.522  0.00  0.00           O 0
+TER
+END

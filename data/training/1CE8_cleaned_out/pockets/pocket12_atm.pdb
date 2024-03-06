@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : 0.0285
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8809
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6008
+HEADER 5  - Mean B-factor of pocket residues  : 0.3305
+HEADER 6  - Hydrophobicity Score              : 25.7500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 255.3342
+HEADER 10  -Pocket volume (convex hull)       : 16.4851
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   7502  CG2 ILE A 986      25.986  -3.907  39.192  0.00  0.00           C 0
+ATOM   7507    O ASN A 987      21.083  -4.169  38.345  0.00  0.00           O 0
+ATOM   7343  CD1 LEU A 965      26.663  -5.765  42.494  0.00  0.00           C 0
+ATOM   7344  CD2 LEU A 965      24.966  -5.188  44.134  0.00  0.00           C 0
+ATOM   7398  CD1 LEU A 971      25.280  -1.899  42.523  0.00  0.00           C 0
+ATOM   7504    N ASN A 987      23.904  -5.029  37.065  0.74  6.56           N 0
+ATOM   7497   CA ILE A 986      26.290  -5.212  37.188  0.00  0.00           C 0
+ATOM   7495    O GLY A 985      26.447  -7.896  36.480  0.00  0.00           O 0
+ATOM   7520   CA ARG A 989      18.088  -0.483  38.962  0.00  0.00           C 0
+ATOM   7523   CB ARG A 989      17.163  -0.471  40.173  0.00  0.00           C 0
+ATOM   7519    N ARG A 989      19.419  -0.858  39.263  0.44  1.09           N 0
+ATOM   7397   CG LEU A 971      24.106  -1.669  43.461  0.00  0.00           C 0
+ATOM   7395    O LEU A 971      20.156  -0.347  41.888  0.47  1.07           O 0
+ATOM   7183  NH1 ARG A 944      17.735  -0.713  43.920  0.00  0.00           N 1
+ATOM   7388   CG GLU A 970      19.184  -4.426  46.560  0.00  0.00           C 0
+ATOM   7396   CB LEU A 971      23.011  -0.878  42.750  0.00  0.00           C 0
+ATOM   7392    N LEU A 971      21.312  -1.532  44.390  0.00  0.00           N 0
+ATOM   7384   CA GLU A 970      21.043  -2.750  46.534  0.00  0.00           C 0
+TER
+END

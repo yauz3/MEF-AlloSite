@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    20:
+HEADER 0  - Pocket Score                      : 0.0452
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.2196
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.7203
+HEADER 5  - Mean B-factor of pocket residues  : 0.6087
+HEADER 6  - Hydrophobicity Score              : -15.2857
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.4286
+HEADER 9  - Pocket volume (Monte Carlo)       : 291.1051
+HEADER 10  -Pocket volume (convex hull)       : 4.7873
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM    477   CB ASP I  74      42.279  43.863  40.104  0.00  0.00           C 0
+ATOM    448   NZ LYS I  70      37.702  42.111  39.228  0.63  6.56           N 1
+ATOM    480  OD2 ASP I  74      42.026  43.422  42.407  0.80  6.43           O 1
+ATOM    447   CE LYS I  70      37.824  42.898  40.490  0.00  0.00           C 0
+ATOM   2511    N GLU I 326      40.723  36.280  33.054  0.59  1.09           N 0
+ATOM    487  ND2 ASN I  75      45.090  41.655  33.825  0.44  7.66           N 0
+ATOM    485   CB ASN I  75      42.976  42.189  34.869  0.00  0.00           C 0
+ATOM   2514    O GLU I 326      39.710  35.685  35.763  0.32  6.43           O 0
+ATOM   2504   CA ILE I 325      42.067  37.707  31.618  0.00  0.00           C 0
+ATOM   2495    O ARG I 324      44.827  37.939  31.373  0.54  6.43           O 0
+ATOM    478   CG ASP I  74      42.816  43.435  41.443  0.00  0.00           C 0
+ATOM   2526  OD1 ASP I 327      38.689  38.898  36.682  0.26  8.57           O 0
+ATOM    484    O ASN I  75      40.406  42.408  36.921  0.62  4.29           O 0
+ATOM    479  OD1 ASP I  74      44.013  43.097  41.533  0.00  0.00           O 0
+ATOM   2509  CG2 ILE I 325      40.745  39.424  32.893  0.00  0.00           C 0
+ATOM    481    N ASN I  75      42.839  43.345  37.038  0.54  5.47           N 0
+TER
+END

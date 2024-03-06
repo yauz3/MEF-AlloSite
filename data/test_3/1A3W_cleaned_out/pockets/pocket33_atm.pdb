@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    33:
+HEADER 0  - Pocket Score                      : 0.0035
+HEADER 1  - Drug Score                        : 0.0067
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.8432
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5176
+HEADER 5  - Mean B-factor of pocket residues  : 0.5640
+HEADER 6  - Hydrophobicity Score              : 18.4286
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 193.3899
+HEADER 10  -Pocket volume (convex hull)       : 3.9641
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6875
+ATOM   3209   CB ALA A 429      31.535  16.012  29.057  0.00  0.00           C 0
+ATOM   3005    O THR A 403      34.510  17.734  30.662  0.00  0.00           O 0
+ATOM   3235  CE2 PHE A 432      33.287  13.560  25.885  0.00  0.00           C 0
+ATOM   3205    N ALA A 429      30.798  16.196  26.722  0.00  0.00           N 0
+ATOM   3186   SG CYS A 426      33.109  20.661  28.500  0.00  0.00           S 0
+ATOM   1757   CB ASP A 234      36.036  16.606  23.292  0.00  0.00           C 0
+ATOM   3198   CB ARG A 428      31.488  17.083  23.837  0.00  0.00           C 0
+ATOM   3199   CG ARG A 428      31.617  18.332  22.976  0.00  0.00           C 0
+ATOM   3013   CB SER A 404      37.500  15.465  31.979  0.00  0.00           C 0
+ATOM   3012    O SER A 404      35.840  13.323  30.712  0.50  4.29           O 0
+ATOM   3010   CA SER A 404      36.057  15.584  31.490  0.00  0.00           C 0
+ATOM   1754   CA ASP A 234      36.972  15.406  23.415  0.00  0.00           C 0
+ATOM   3236   CZ PHE A 432      33.374  13.392  27.263  0.00  0.00           C 0
+ATOM   1756    O ASP A 234      35.471  13.540  23.616  0.62  1.07           O 0
+TER
+END

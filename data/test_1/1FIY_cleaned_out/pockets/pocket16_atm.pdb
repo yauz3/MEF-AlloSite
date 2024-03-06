@@ -1,0 +1,48 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    16:
+HEADER 0  - Pocket Score                      : 0.0277
+HEADER 1  - Drug Score                        : 0.0017
+HEADER 2  - Number of alpha spheres           :    36
+HEADER 3  - Mean alpha-sphere radius          : 3.6362
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4325
+HEADER 5  - Mean B-factor of pocket residues  : 0.2094
+HEADER 6  - Hydrophobicity Score              : -8.5000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 235.8182
+HEADER 10  -Pocket volume (convex hull)       : 11.2184
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM   2002   NE ARG A 253      27.347  18.544 -10.523  0.00  0.00           N 0
+ATOM   3142  NE2 GLN A 397      23.184  18.363 -12.785  0.72  1.09           N 0
+ATOM   3604  OE1 GLU A 453      27.786  13.203 -12.316  0.00  0.00           O 0
+ATOM   3635  OG1 THR A 457      26.773  14.656  -9.291  0.82  3.21           O 0
+ATOM   3601   CB GLU A 453      25.234  12.651 -13.685  0.00  0.00           C 0
+ATOM   2014    N GLY A 255      23.909  23.202 -16.548  0.00  0.00           N 0
+ATOM   3175  NH1 ARG A 401      22.729  16.292 -17.302  0.63  7.66           N 1
+ATOM   2015   CA GLY A 255      24.189  23.346 -17.964  0.00  0.00           C 0
+ATOM   2018    N ASN A 256      26.336  22.321 -17.422  0.00  0.00           N 0
+ATOM   3152  OE2 GLU A 398      18.845  22.163 -17.357  0.43  9.64           O 1
+ATOM   2016    C GLY A 255      25.577  22.896 -18.346  0.00  0.00           C 0
+ATOM   1998    O ARG A 253      25.578  21.637 -15.026  0.44  3.21           O 0
+ATOM   2026    N PRO A 257      27.833  19.680 -18.677  0.00  0.00           N 0
+ATOM   2031   CG PRO A 257      27.145  18.924 -20.770  0.00  0.00           C 0
+ATOM   2017    O GLY A 255      25.982  23.032 -19.501  0.28  6.43           O 0
+ATOM   2021    O ASN A 256      28.386  19.920 -16.523  0.75  1.07           O 0
+ATOM   3176  NH2 ARG A 401      23.531  14.784 -15.782  0.45  5.47           N 0
+ATOM   1999   CB ARG A 253      26.711  20.128 -12.645  0.00  0.00           C 0
+ATOM   3143  OE1 GLN A 397      21.763  19.898 -13.551  0.55  3.21           O 0
+ATOM   3602   CG GLU A 453      26.569  12.848 -14.344  0.00  0.00           C 0
+ATOM   2044    O VAL A 259      29.346  17.865 -13.189  0.70  2.14           O 0
+ATOM   2029    O PRO A 257      29.462  17.209 -17.096  0.87  2.14           O 0
+ATOM   2032   CD PRO A 257      27.391  20.197 -19.991  0.00  0.00           C 0
+ATOM   2027   CA PRO A 257      28.125  18.258 -18.722  0.00  0.00           C 0
+ATOM   2020    C ASN A 256      27.976  20.414 -17.580  0.00  0.00           C 0
+ATOM   3172   CD ARG A 401      20.450  16.747 -15.868  0.00  0.00           C 0
+TER
+END

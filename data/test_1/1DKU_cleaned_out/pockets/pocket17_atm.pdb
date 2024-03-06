@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : -0.0958
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7139
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3584
+HEADER 5  - Mean B-factor of pocket residues  : 0.6540
+HEADER 6  - Hydrophobicity Score              : 15.7778
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 202.2730
+HEADER 10  -Pocket volume (convex hull)       : 7.6920
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   4356  OE1 GLN B 291      22.607  36.850  71.103  0.71  9.64           O 0
+ATOM   4258  ND2 ASN B 276      20.521  41.000  72.675  0.54  4.37           N 0
+ATOM   2364   CB GLU B  19      15.459  37.136  72.846  0.00  0.00           C 0
+ATOM   2398  OE1 GLU B  23      19.366  40.721  76.181  0.00  0.00           O 0
+ATOM   4256   CB ASN B 276      21.370  40.247  70.555  0.00  0.00           C 0
+ATOM   4275   CA LYS B 279      18.245  37.101  66.113  0.00  0.00           C 0
+ATOM   4355  NE2 GLN B 291      23.266  36.329  69.042  0.80  5.47           N 0
+ATOM   4283    N LEU B 280      19.591  35.111  65.809  0.71  3.28           N 0
+ATOM   2352  OD1 ASN B  17      15.709  39.340  69.271  0.54  2.14           O 0
+ATOM   2369    N LEU B  20      15.210  40.053  72.532  0.76  1.09           N 0
+ATOM   4255    O ASN B 276      19.522  41.487  68.792  0.86  1.07           O 0
+ATOM   2367  OE1 GLU B  19      16.285  34.623  71.185  0.00  0.00           O 0
+ATOM   4279   CG LYS B 279      16.457  35.289  66.658  0.00  0.00           C 0
+ATOM   4269    O ILE B 278      20.528  38.787  65.900  0.00  0.00           O 0
+TER
+END

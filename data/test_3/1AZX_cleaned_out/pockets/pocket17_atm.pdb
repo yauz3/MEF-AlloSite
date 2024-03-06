@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    17:
+HEADER 0  - Pocket Score                      : 0.0642
+HEADER 1  - Drug Score                        : 0.0027
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 3.7342
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4851
+HEADER 5  - Mean B-factor of pocket residues  : 0.5632
+HEADER 6  - Hydrophobicity Score              : 23.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 171.7678
+HEADER 10  -Pocket volume (convex hull)       : 4.0795
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.4333
+ATOM   6207  OE2 GLU L 374      18.390   5.701  14.982  0.00  0.00           O 1
+ATOM   6206  OE1 GLU L 374      18.772   3.887  16.159  0.62  6.43           O 0
+ATOM   6205   CD GLU L 374      18.280   4.471  15.171  0.00  0.00           C 0
+ATOM   5791  NH2 ARG L 322      24.179   4.728  12.195  0.00  0.00           N 0
+ATOM   5789   CZ ARG L 322      23.803   4.165  11.059  0.00  0.00           C 0
+ATOM   6221  ND2 ASN L 376      21.295   0.060  13.308  0.33  8.75           N 0
+ATOM   6204   CG GLU L 374      17.518   3.651  14.145  0.00  0.00           C 0
+ATOM   6219   CB ASN L 376      21.281   0.690  10.977  0.00  0.00           C 0
+ATOM   6211    O VAL L 375      18.609   2.547   9.929  0.00  0.00           O 0
+ATOM   5786   CG ARG L 322      21.486   4.230   8.686  0.00  0.00           C 0
+ATOM   5788   NE ARG L 322      23.439   4.930  10.031  0.54  9.84           N 0
+ATOM   6638  CG1 VAL L 431      18.936  11.421  11.962  0.00  0.00           C 0
+ATOM   5784    O ARG L 322      19.311   6.544   7.576  0.53  3.21           O 0
+ATOM   5793   CA PHE L 323      17.002   6.364   9.016  0.00  0.00           C 0
+ATOM   5794    C PHE L 323      16.426   6.149  10.406  0.00  0.00           C 0
+ATOM   5807   CB ARG L 324      16.020   7.631  13.259  0.00  0.00           C 0
+ATOM   6637   CB VAL L 431      18.577  11.208  10.484  0.00  0.00           C 0
+ATOM   5795    O PHE L 323      16.573   5.088  11.010  0.74  1.07           O 0
+ATOM   5792    N PHE L 323      17.704   5.230   8.423  0.00  0.00           N 0
+ATOM   6639  CG2 VAL L 431      17.292  10.383  10.367  0.00  0.00           C 0
+TER
+END

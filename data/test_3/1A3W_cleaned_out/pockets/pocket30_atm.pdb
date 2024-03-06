@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : 0.0397
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0450
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6589
+HEADER 5  - Mean B-factor of pocket residues  : 0.2395
+HEADER 6  - Hydrophobicity Score              : 18.2000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 3.9000
+HEADER 9  - Pocket volume (Monte Carlo)       : 273.3996
+HEADER 10  -Pocket volume (convex hull)       : 12.1739
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1111
+ATOM   2852    O THR A 381      37.392   6.441  47.229  0.00  0.00           O 0
+ATOM   2873    N SER A 385      34.678   5.172  47.442  0.44  1.09           N 0
+ATOM   2872   CB ALA A 384      35.966   3.147  45.608  0.00  0.00           C 0
+ATOM   2733   OH TYR A 365      33.894   0.981  47.923  0.77  9.64           O 0
+ATOM   2819  OG1 THR A 376      42.269   3.424  45.752  0.56  7.50           O 0
+ATOM   2850   CA THR A 381      39.343   6.535  45.844  0.00  0.00           C 0
+ATOM   2854  CG2 THR A 381      40.302   6.871  48.123  0.00  0.00           C 0
+ATOM   2794   CB PRO A 373      43.778   0.543  45.914  0.00  0.00           C 0
+ATOM   2796   CD PRO A 373      43.059  -1.476  46.994  0.00  0.00           C 0
+ATOM   2789  OG1 THR A 372      40.083  -1.386  43.888  0.74  2.14           O 0
+ATOM   2761    O ARG A 369      39.063  -3.176  46.294  0.29  7.50           O 0
+ATOM   2764   CD ARG A 369      36.413  -2.692  48.395  0.00  0.00           C 0
+ATOM   2874   CA SER A 385      34.159   5.616  48.729  0.00  0.00           C 0
+ATOM   2878   OG SER A 385      35.086   6.625  50.728  0.43  9.64           O 0
+ATOM   2877   CB SER A 385      35.075   6.691  49.314  0.00  0.00           C 0
+ATOM   2818  CG2 THR A 376      41.628   2.668  43.558  0.00  0.00           C 0
+ATOM   3092   OH TYR A 414      38.477   1.171  42.193  0.00  0.00           O 0
+ATOM   2762   CB ARG A 369      36.388  -2.129  45.946  0.00  0.00           C 0
+ATOM   2895   CB ALA A 388      31.664   2.951  50.205  0.00  0.00           C 0
+TER
+END

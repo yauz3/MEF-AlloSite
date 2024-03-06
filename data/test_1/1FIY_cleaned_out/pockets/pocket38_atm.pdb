@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    38:
+HEADER 0  - Pocket Score                      : -0.0423
+HEADER 1  - Drug Score                        : 0.0007
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.8386
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5748
+HEADER 5  - Mean B-factor of pocket residues  : 0.5976
+HEADER 6  - Hydrophobicity Score              : 30.0000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 4.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 143.1259
+HEADER 10  -Pocket volume (convex hull)       : 0.5789
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   1872   CG PRO A 237      33.860  37.948  20.518  0.00  0.00           C 0
+ATOM   1894   CB PHE A 240      33.455  36.707  16.462  0.00  0.00           C 0
+ATOM   1896  CD1 PHE A 240      31.459  36.583  14.968  0.00  0.00           C 0
+ATOM    959    O GLU A 127      27.762  38.655  15.869  0.56  4.29           O 0
+ATOM   1895   CG PHE A 240      32.482  37.336  15.519  0.00  0.00           C 0
+ATOM   1873   CD PRO A 237      34.001  39.189  19.696  0.00  0.00           C 0
+ATOM    960   CB GLU A 127      27.776  40.579  18.120  0.00  0.00           C 0
+ATOM    961   CG GLU A 127      28.359  41.325  19.281  0.00  0.00           C 0
+ATOM    964  OE2 GLU A 127      28.226  40.973  21.641  0.77  3.21           O 1
+ATOM    962   CD GLU A 127      27.606  40.989  20.563  0.00  0.00           C 0
+ATOM   1897  CD2 PHE A 240      32.614  38.667  15.166  0.00  0.00           C 0
+ATOM   1866  CD2 LEU A 236      32.353  42.104  17.170  0.00  0.00           C 0
+ATOM    957   CA GLU A 127      28.283  40.834  16.715  0.00  0.00           C 0
+TER
+END

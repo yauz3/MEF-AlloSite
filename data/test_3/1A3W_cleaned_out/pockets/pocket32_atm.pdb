@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    32:
+HEADER 0  - Pocket Score                      : 0.0203
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.9501
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6430
+HEADER 5  - Mean B-factor of pocket residues  : 0.2625
+HEADER 6  - Hydrophobicity Score              : 27.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 174.6145
+HEADER 10  -Pocket volume (convex hull)       : 3.4948
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.5294
+ATOM   2854  CG2 THR A 381      40.302   6.871  48.123  0.00  0.00           C 0
+ATOM   3717    O ASN A 493      37.775  14.136  48.798  0.58  9.64           O 0
+ATOM   2857   CA VAL A 382      36.431   8.889  46.400  0.00  0.00           C 0
+ATOM   2878   OG SER A 385      35.086   6.625  50.728  0.43  9.64           O 0
+ATOM   3733   CB LEU A 495      32.612  12.035  49.935  0.00  0.00           C 0
+ATOM   2862  CG2 VAL A 382      35.124  11.044  46.475  0.00  0.00           C 0
+ATOM   2877   CB SER A 385      35.075   6.691  49.314  0.00  0.00           C 0
+ATOM   2852    O THR A 381      37.392   6.441  47.229  0.00  0.00           O 0
+ATOM   3735  CD1 LEU A 495      32.679   9.926  48.634  0.00  0.00           C 0
+ATOM   2829    O THR A 378      40.041  10.027  44.838  0.54  1.07           O 0
+ATOM   2831  CG2 THR A 378      42.460  12.326  45.807  0.00  0.00           C 0
+ATOM   3715   CA ASN A 493      38.480  14.384  46.520  0.00  0.00           C 0
+ATOM   2860   CB VAL A 382      36.490  10.421  46.219  0.00  0.00           C 0
+ATOM   2856    N VAL A 382      37.663   8.263  45.942  0.00  0.00           N 0
+TER
+END

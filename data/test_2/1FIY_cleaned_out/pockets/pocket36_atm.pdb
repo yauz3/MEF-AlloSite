@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    36:
+HEADER 0  - Pocket Score                      : -0.0367
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.7549
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4095
+HEADER 5  - Mean B-factor of pocket residues  : 0.6115
+HEADER 6  - Hydrophobicity Score              : 50.3750
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.1250
+HEADER 9  - Pocket volume (Monte Carlo)       : 246.7880
+HEADER 10  -Pocket volume (convex hull)       : 9.6738
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 9.0000
+HEADER 13 - Number of apolar alpha sphere     :    10
+HEADER 14 - Proportion of apolar alpha sphere : 0.4545
+ATOM   2935  CG2 ILE A 371      54.290  35.472  20.107  0.00  0.00           C 0
+ATOM   2287    O GLU A 289      58.507  32.258  18.749  0.52  6.43           O 0
+ATOM   2288   CB GLU A 289      58.016  32.803  15.725  0.00  0.00           C 0
+ATOM   2936  CD1 ILE A 371      56.053  38.016  20.282  0.00  0.00           C 0
+ATOM   2291  OE1 GLU A 289      56.983  34.855  14.137  0.71  5.36           O 0
+ATOM   2961  OD2 ASP A 375      54.170  36.517  13.243  0.00  0.00           O 1
+ATOM   2300  CD2 LEU A 290      54.344  31.697  19.166  0.00  0.00           C 0
+ATOM   2270  CD2 LEU A 286      52.237  30.853  15.678  0.00  0.00           C 0
+ATOM   2289   CG GLU A 289      58.926  33.780  14.979  0.00  0.00           C 0
+ATOM   2290   CD GLU A 289      58.187  34.565  13.920  0.00  0.00           C 0
+ATOM   2930   CA ILE A 371      52.992  37.640  20.166  0.00  0.00           C 0
+ATOM   2924    O ILE A 370      52.024  40.077  19.244  0.65  7.50           O 0
+ATOM   2958   CB ASP A 375      52.331  35.035  12.964  0.00  0.00           C 0
+ATOM   2932    O ILE A 371      51.596  36.460  18.606  0.53  5.36           O 0
+ATOM   2951   CA GLY A 374      50.416  38.641  15.586  0.00  0.00           C 0
+ATOM   2962    N LEU A 376      49.806  34.287  14.956  0.68  1.09           N 0
+TER
+END

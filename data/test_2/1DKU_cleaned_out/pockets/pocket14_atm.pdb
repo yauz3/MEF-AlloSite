@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : -0.0815
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 3.7118
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5324
+HEADER 5  - Mean B-factor of pocket residues  : 0.5221
+HEADER 6  - Hydrophobicity Score              : 32.4000
+HEADER 7  - Polarity Score                    :     1
+HEADER 8  - Amino Acid based volume Score     : 3.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 175.4598
+HEADER 10  -Pocket volume (convex hull)       : 4.2967
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.0000
+HEADER 13 - Number of apolar alpha sphere     :     9
+HEADER 14 - Proportion of apolar alpha sphere : 0.6000
+ATOM   2427  CG2 ILE B  27      17.610  47.769  81.340  0.00  0.00           C 0
+ATOM   4439  CD1 ILE B 303      13.791  52.823  80.466  0.00  0.00           C 0
+ATOM   2424    O ILE B  27      15.239  48.148  83.357  0.00  0.00           O 0
+ATOM   4417  OE1 GLU B 300      20.493  54.024  81.396  0.00  0.00           O 0
+ATOM   4385    O PRO B 296      20.288  50.206  77.781  0.81  2.14           O 0
+ATOM   4386   CB PRO B 296      22.237  47.598  78.589  0.00  0.00           C 0
+ATOM   4437  CG1 ILE B 303      13.910  53.986  81.303  0.00  0.00           C 0
+ATOM   4411   CA GLU B 300      18.190  53.299  78.453  0.00  0.00           C 0
+ATOM   4407    C ALA B 299      16.555  51.644  77.839  0.00  0.00           C 0
+ATOM   4408    O ALA B 299      15.614  52.357  78.178  0.00  0.00           O 0
+ATOM   4409   CB ALA B 299      16.635  49.212  78.310  0.00  0.00           C 0
+ATOM   4436   CB ILE B 303      14.612  55.103  80.567  0.00  0.00           C 0
+ATOM   4438  CG2 ILE B 303      14.969  56.220  81.556  0.00  0.00           C 0
+ATOM   4410    N GLU B 300      17.819  52.011  77.917  0.00  0.00           N 0
+ATOM   4414   CB GLU B 300      19.690  53.306  78.699  0.00  0.00           C 0
+TER
+END

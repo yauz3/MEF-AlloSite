@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    18:
+HEADER 0  - Pocket Score                      : 0.0597
+HEADER 1  - Drug Score                        : 0.0022
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8047
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4650
+HEADER 5  - Mean B-factor of pocket residues  : 0.5915
+HEADER 6  - Hydrophobicity Score              : 12.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 116.0959
+HEADER 10  -Pocket volume (convex hull)       : 0.5320
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 10.0000
+HEADER 13 - Number of apolar alpha sphere     :    11
+HEADER 14 - Proportion of apolar alpha sphere : 0.6471
+ATOM   2451  CD2 HIS I 319      54.967  50.659  20.819  0.00  0.00           C 0
+ATOM   1789  OE1 GLU I 237      57.257  49.593  24.405  0.00  0.00           O 0
+ATOM   1767   CG ARG I 235      60.566  45.489  21.043  0.00  0.00           C 0
+ATOM   2454  NE2 HIS I 319      55.705  51.520  20.046  0.56  5.47           N 0
+ATOM   1766   CB ARG I 235      60.021  45.289  22.454  0.00  0.00           C 0
+ATOM   1906   CB TYR I 253      55.070  47.839  17.981  0.00  0.00           C 0
+ATOM   1750    O ASN I 233      58.396  44.432  18.847  0.62  3.21           O 0
+ATOM   1907   CG TYR I 253      55.559  48.781  16.896  0.00  0.00           C 0
+ATOM   1909  CD2 TYR I 253      55.717  50.141  17.150  0.00  0.00           C 0
+ATOM   1889    O MET I 251      55.436  44.163  22.138  0.48  1.07           O 0
+ATOM   1890   CB MET I 251      55.175  46.408  24.357  0.00  0.00           C 0
+ATOM   1891   CG MET I 251      54.320  47.603  23.994  0.00  0.00           C 0
+TER
+END

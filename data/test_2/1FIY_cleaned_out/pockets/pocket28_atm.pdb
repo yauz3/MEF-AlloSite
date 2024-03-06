@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    28:
+HEADER 0  - Pocket Score                      : -0.0130
+HEADER 1  - Drug Score                        : 0.0019
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.6251
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4200
+HEADER 5  - Mean B-factor of pocket residues  : 0.1742
+HEADER 6  - Hydrophobicity Score              : 16.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 101.4569
+HEADER 10  -Pocket volume (convex hull)       : 1.2467
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 14.0000
+HEADER 13 - Number of apolar alpha sphere     :    15
+HEADER 14 - Proportion of apolar alpha sphere : 0.5769
+ATOM   5606  OG1 THR A 722      28.822  43.343 -22.222  0.61  2.14           O 0
+ATOM   5576  CD1 PHE A 719      29.746  37.999 -20.198  0.00  0.00           C 0
+ATOM   5575   CG PHE A 719      30.436  37.855 -21.388  0.00  0.00           C 0
+ATOM   6883  OG1 THR A 882      29.035  43.891 -19.559  0.69  7.50           O 0
+ATOM   5577  CD2 PHE A 719      31.820  37.767 -21.374  0.00  0.00           C 0
+ATOM   5604   CB THR A 722      29.829  43.442 -23.228  0.00  0.00           C 0
+ATOM   5605  CG2 THR A 722      30.929  44.384 -22.743  0.00  0.00           C 0
+ATOM   5579  CE2 PHE A 719      32.518  37.820 -20.180  0.00  0.00           C 0
+ATOM   5580   CZ PHE A 719      31.819  37.965 -18.986  0.00  0.00           C 0
+ATOM   5578  CE1 PHE A 719      30.440  38.057 -18.989  0.00  0.00           C 0
+ATOM   6861    O ARG A 880      32.358  44.155 -17.585  0.42  4.29           O 0
+ATOM   5614  NE2 GLN A 723      34.468  40.566 -25.237  0.43  2.19           N 0
+ATOM   6840   CB ALA A 876      35.931  40.520 -21.389  0.00  0.00           C 0
+ATOM   5573    O PHE A 719      29.628  40.302 -24.838  0.00  0.00           O 0
+ATOM   6839    O ALA A 876      36.065  42.943 -19.349  0.75  3.21           O 0
+ATOM   4793   CG GLU A 615      33.840  38.426 -16.564  0.00  0.00           C 0
+ATOM   6837   CA ALA A 876      35.971  42.029 -21.550  0.00  0.00           C 0
+TER
+END

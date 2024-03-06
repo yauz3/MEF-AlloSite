@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    25:
+HEADER 0  - Pocket Score                      : 0.0367
+HEADER 1  - Drug Score                        : 0.0023
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.9619
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5142
+HEADER 5  - Mean B-factor of pocket residues  : 0.4083
+HEADER 6  - Hydrophobicity Score              : 35.8571
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.5714
+HEADER 9  - Pocket volume (Monte Carlo)       : 274.2468
+HEADER 10  -Pocket volume (convex hull)       : 5.3277
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4375
+ATOM   3062   CA ARG I 399      51.825  60.866  12.903  0.00  0.00           C 0
+ATOM   2413   SD MET I 314      44.939  60.001  13.333  0.00  0.00           S 0
+ATOM   2412   CG MET I 314      44.908  59.225  11.722  0.00  0.00           C 0
+ATOM   2418    O MET I 315      48.225  57.641  11.497  0.00  0.00           O 0
+ATOM   3056    O ASN I 398      51.951  63.592  12.531  0.00  0.00           O 0
+ATOM   3072    N VAL I 400      50.405  60.503  14.824  0.63  3.28           N 0
+ATOM   3076   CB VAL I 400      48.614  60.527  16.531  0.00  0.00           C 0
+ATOM   2419   CB MET I 315      47.826  56.353   8.808  0.00  0.00           C 0
+ATOM   2415    N MET I 315      45.865  56.946  10.146  0.77  2.19           N 0
+ATOM   3044  ND2 ASN I 396      51.958  63.341   9.656  0.00  0.00           N 0
+ATOM   3067   CD ARG I 399      52.858  57.330  11.658  0.00  0.00           C 0
+ATOM   3034   CB LEU I 395      53.857  56.460   7.947  0.00  0.00           C 0
+ATOM   3038    N ASN I 396      53.684  59.455   7.461  0.67  5.47           N 0
+ATOM   3065   CB ARG I 399      51.845  59.571  12.077  0.00  0.00           C 0
+ATOM   3042   CB ASN I 396      52.570  61.533   8.163  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    30:
+HEADER 0  - Pocket Score                      : -0.0169
+HEADER 1  - Drug Score                        : 0.0012
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.8465
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5824
+HEADER 5  - Mean B-factor of pocket residues  : 0.6317
+HEADER 6  - Hydrophobicity Score              : -14.5714
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 192.0216
+HEADER 10  -Pocket volume (convex hull)       : 3.8014
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 12.0000
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.7222
+ATOM   6738   CG PRO A 862      46.522  27.981 -36.772  0.00  0.00           C 0
+ATOM   6737   CB PRO A 862      45.910  28.269 -35.444  0.00  0.00           C 0
+ATOM   6745   CG ARG A 863      47.963  32.286 -37.953  0.00  0.00           C 0
+ATOM   6740    N ARG A 863      45.873  31.396 -36.377  0.00  0.00           N 0
+ATOM   6746   CD ARG A 863      49.429  32.575 -38.134  0.00  0.00           C 0
+ATOM   6774  NE2 GLN A 866      47.302  30.574 -31.608  0.73  8.75           N 0
+ATOM   6741   CA ARG A 863      46.278  32.776 -36.080  0.00  0.00           C 0
+ATOM   6744   CB ARG A 863      47.274  33.306 -37.078  0.00  0.00           C 0
+ATOM    512  CD1 LEU A  69      49.344  34.887 -31.485  0.00  0.00           C 0
+ATOM    510   CB LEU A  69      48.740  36.729 -33.021  0.00  0.00           C 0
+ATOM    520   CD PRO A  70      50.849  38.936 -34.214  0.00  0.00           C 0
+ATOM    487  OD1 ASP A  66      52.455  34.145 -38.800  0.00  0.00           O 0
+ATOM    484    O ASP A  66      52.065  38.182 -37.387  0.57  5.36           O 0
+ATOM    476    O ASN A  65      48.742  36.366 -38.470  0.52  1.07           O 0
+TER
+END

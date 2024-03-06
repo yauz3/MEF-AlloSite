@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : 0.1470
+HEADER 1  - Drug Score                        : 0.0010
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5956
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3685
+HEADER 5  - Mean B-factor of pocket residues  : 0.4462
+HEADER 6  - Hydrophobicity Score              : 45.6667
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.2222
+HEADER 9  - Pocket volume (Monte Carlo)       : 86.4941
+HEADER 10  -Pocket volume (convex hull)       : 0.3250
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3125
+ATOM   2089  CE1 PHE I 274      39.758  40.624  18.143  0.00  0.00           C 0
+ATOM   1684  CE2 TRP I 225      44.277  42.173  18.310  0.00  0.00           C 0
+ATOM   2903  CG2 VAL I 375      43.299  40.516  23.718  0.00  0.00           C 0
+ATOM   1667    O GLY I 223      41.240  37.819  17.330  0.53  3.21           O 0
+ATOM   1687  CZ2 TRP I 225      43.753  42.975  19.330  0.00  0.00           C 0
+ATOM   2891    O GLU I 374      42.887  36.997  23.230  0.83  3.21           O 0
+ATOM   2898   CA VAL I 375      45.044  38.737  23.429  0.00  0.00           C 0
+ATOM   2904    N ASN I 376      46.792  38.272  21.853  0.62  1.09           N 0
+ATOM   2931   CA GLY I 379      44.023  35.963  17.718  0.00  0.00           C 0
+ATOM   1686  NE1 TRP I 225      45.366  41.344  18.312  0.65  1.09           N 0
+ATOM   2930    N GLY I 379      45.259  36.648  17.375  0.00  0.00           N 0
+ATOM   1664    N GLY I 223      39.357  36.967  19.267  0.81  2.19           N 0
+ATOM   2886  CD1 LEU I 373      39.207  39.180  24.821  0.00  0.00           C 0
+ATOM   2091   CZ PHE I 274      38.944  41.250  19.066  0.00  0.00           C 0
+ATOM   1653  CE2 PHE I 221      36.915  38.767  20.988  0.00  0.00           C 0
+TER
+END

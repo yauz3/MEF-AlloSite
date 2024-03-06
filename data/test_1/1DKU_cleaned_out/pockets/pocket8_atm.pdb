@@ -1,0 +1,37 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     8:
+HEADER 0  - Pocket Score                      : -0.0382
+HEADER 1  - Drug Score                        : 0.0184
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 4.0736
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5494
+HEADER 5  - Mean B-factor of pocket residues  : 0.0785
+HEADER 6  - Hydrophobicity Score              : 63.0000
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 4.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 198.4414
+HEADER 10  -Pocket volume (convex hull)       : 3.6089
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 19.0000
+HEADER 13 - Number of apolar alpha sphere     :    20
+HEADER 14 - Proportion of apolar alpha sphere : 0.9091
+ATOM   3156  CD1 LEU B 120       6.008  51.286  52.815  0.00  0.00           C 0
+ATOM   3125  CD2 LEU B 116       8.731  51.867  48.887  0.00  0.00           C 0
+ATOM   2984  CE2 TYR B  99      12.594  45.962  52.260  0.00  0.00           C 0
+ATOM   2744  OD1 ASN B  69      10.185  43.482  51.733  0.00  0.00           O 0
+ATOM   3126    N PHE B 117      10.567  53.340  52.964  0.53  1.09           N 0
+ATOM   3127   CA PHE B 117      10.203  52.786  54.243  0.00  0.00           C 0
+ATOM   2771  CD1 ILE B  72      10.511  46.561  55.109  0.00  0.00           C 0
+ATOM   2770  CG2 ILE B  72       7.646  47.222  55.798  0.00  0.00           C 0
+ATOM   3123   CG LEU B 116       8.649  53.023  49.853  0.00  0.00           C 0
+ATOM   3102  CG2 THR B 113      12.911  49.638  50.008  0.00  0.00           C 0
+ATOM   2982  CD2 TYR B  99      13.318  46.985  52.848  0.00  0.00           C 0
+ATOM   3130   CB PHE B 117      11.317  51.926  54.815  0.00  0.00           C 0
+ATOM   2985   CZ TYR B  99      12.990  45.472  51.024  0.00  0.00           C 0
+ATOM   2986   OH TYR B  99      12.309  44.436  50.415  0.00  0.00           O 0
+ATOM   3132  CD1 PHE B 117       9.898  50.622  56.451  0.00  0.00           C 0
+TER
+END

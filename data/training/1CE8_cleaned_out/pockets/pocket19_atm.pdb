@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : 0.0049
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.5993
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3778
+HEADER 5  - Mean B-factor of pocket residues  : 0.3784
+HEADER 6  - Hydrophobicity Score              : 0.8750
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 2.5000
+HEADER 9  - Pocket volume (Monte Carlo)       : 93.0767
+HEADER 10  -Pocket volume (convex hull)       : 0.6651
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     0
+HEADER 14 - Proportion of apolar alpha sphere : 0.0000
+ATOM   4385    N GLY A 567      45.096  34.931  66.256  0.31  9.84           N 0
+ATOM   4476   CB ASP A 579      43.221  29.265  69.085  0.00  0.00           C 0
+ATOM   4472    N ASP A 579      44.698  28.663  67.201  0.62  1.09           N 0
+ATOM   4473   CA ASP A 579      44.662  29.086  68.566  0.00  0.00           C 0
+ATOM   4465   CB PHE A 578      45.594  29.247  64.232  0.00  0.00           C 0
+ATOM   4386   CA GLY A 567      44.574  35.143  64.910  0.00  0.00           C 0
+ATOM   4443    O GLY A 575      41.954  28.398  64.549  0.53  3.21           O 0
+ATOM   4989    O GLY A 643      46.152  33.179  63.134  0.63  1.07           O 0
+ATOM   4406  ND2 ASN A 570      39.400  30.743  65.712  0.43  2.19           N 0
+ATOM   4392    O GLY A 568      40.432  35.229  66.539  0.33  1.07           O 0
+ATOM   4434    O GLN A 574      40.314  30.787  62.252  0.56  1.07           O 0
+ATOM   4388    O GLY A 567      42.714  36.036  63.724  0.45  1.07           O 0
+ATOM   4478  OD1 ASP A 579      43.474  31.247  70.316  0.42  3.21           O 0
+ATOM   4387    C GLY A 567      43.278  35.918  64.819  0.00  0.00           C 0
+TER
+END

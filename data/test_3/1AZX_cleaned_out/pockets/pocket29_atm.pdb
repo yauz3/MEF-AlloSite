@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    29:
+HEADER 0  - Pocket Score                      : 0.0199
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    15
+HEADER 3  - Mean alpha-sphere radius          : 4.1574
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6594
+HEADER 5  - Mean B-factor of pocket residues  : 0.5224
+HEADER 6  - Hydrophobicity Score              : 7.2500
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 5.2500
+HEADER 9  - Pocket volume (Monte Carlo)       : 210.5975
+HEADER 10  -Pocket volume (convex hull)       : 2.2685
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.3333
+ATOM   5220  CD2 TYR L 253      24.835  -2.403  -2.848  0.00  0.00           C 0
+ATOM   5061    O ASN L 233      26.470   1.510  -0.245  0.12  1.07           O 0
+ATOM   5063   CG ASN L 233      28.481  -2.316  -0.498  0.00  0.00           C 0
+ATOM   5083  NH2 ARG L 235      30.882   2.439  -2.154  0.00  0.00           N 0
+ATOM   5082  NH1 ARG L 235      29.923   4.093  -3.421  0.00  0.00           N 1
+ATOM   5218   CG TYR L 253      23.889  -1.382  -2.929  0.00  0.00           C 0
+ATOM   5078   CG ARG L 235      27.472   5.057  -1.633  0.00  0.00           C 0
+ATOM   5222  CE2 TYR L 253      25.010  -3.299  -3.890  0.00  0.00           C 0
+ATOM   5064  ND2 ASN L 233      27.950  -3.396  -1.057  0.73  3.28           N 0
+ATOM   5062   CB ASN L 233      27.518  -1.294   0.065  0.00  0.00           C 0
+ATOM   5059   CA ASN L 233      28.214   0.009   0.459  0.00  0.00           C 0
+ATOM   5765  NE2 HIS L 319      21.530   1.730  -4.274  0.00  0.00           N 0
+ATOM   5217   CB TYR L 253      23.677  -0.427  -1.773  0.00  0.00           C 0
+ATOM   5219  CD1 TYR L 253      23.125  -1.282  -4.088  0.00  0.00           C 0
+TER
+END

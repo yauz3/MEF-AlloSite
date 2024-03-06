@@ -1,0 +1,38 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : -0.0764
+HEADER 1  - Drug Score                        : 0.0006
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8992
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5379
+HEADER 5  - Mean B-factor of pocket residues  : 0.5107
+HEADER 6  - Hydrophobicity Score              : 11.6667
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 4.8333
+HEADER 9  - Pocket volume (Monte Carlo)       : 202.7496
+HEADER 10  -Pocket volume (convex hull)       : 7.9817
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 6.0000
+HEADER 13 - Number of apolar alpha sphere     :     7
+HEADER 14 - Proportion of apolar alpha sphere : 0.4118
+ATOM   3242  CE1 TYR A 429       0.280  -0.839  98.088  0.00  0.00           C 0
+ATOM   3228    O LYS A 428      -5.027   1.265  97.594  0.57  2.14           O 0
+ATOM   3227    C LYS A 428      -4.272   1.781  96.790  0.00  0.00           C 0
+ATOM   3229   CB LYS A 428      -5.298   0.390  95.031  0.00  0.00           C 0
+ATOM   3244   CZ TYR A 429       0.857  -0.646  96.842  0.00  0.00           C 0
+ATOM   3245   OH TYR A 429       1.493  -1.685  96.195  0.00  0.00           O 0
+ATOM   1912  CD1 ILE A 253      -0.726   1.050  89.495  0.00  0.00           C 0
+ATOM   1910  CG1 ILE A 253      -0.462  -0.264  88.840  0.00  0.00           C 0
+ATOM   1896    O ASP A 251       1.578  -2.938  90.729  0.70  5.36           O 0
+ATOM   3230   CG LYS A 428      -5.601   0.119  93.597  0.00  0.00           C 0
+ATOM   3213    O GLY A 426      -4.130   2.344  90.946  0.00  0.00           O 0
+ATOM   3225    N LYS A 428      -3.489   1.901  94.343  0.55  3.28           N 0
+ATOM   3243  CE2 TYR A 429       0.829   0.608  96.256  0.00  0.00           C 0
+ATOM   3215   CA ARG A 427      -2.150   3.032  92.595  0.00  0.00           C 0
+ATOM   3223  NH1 ARG A 427       3.036   1.335  93.604  0.82  1.09           N 1
+ATOM   3219   CG ARG A 427       0.363   3.010  92.240  0.00  0.00           C 0
+TER
+END

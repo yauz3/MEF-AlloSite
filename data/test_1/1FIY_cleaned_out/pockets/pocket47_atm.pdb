@@ -1,0 +1,36 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    47:
+HEADER 0  - Pocket Score                      : -0.0882
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.8997
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6019
+HEADER 5  - Mean B-factor of pocket residues  : 0.7271
+HEADER 6  - Hydrophobicity Score              : 0.7500
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 191.9636
+HEADER 10  -Pocket volume (convex hull)       : 2.2505
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3529
+ATOM   1356   CG ARG A 176      67.541  46.258 -14.385  0.00  0.00           C 0
+ATOM   1385   CB ARG A 179      62.696  46.971 -18.009  0.00  0.00           C 0
+ATOM   1387   CD ARG A 179      63.700  48.308 -19.878  0.00  0.00           C 0
+ATOM   1390  NH1 ARG A 179      65.604  47.061 -21.417  0.00  0.00           N 1
+ATOM   1383    C ARG A 179      61.336  44.826 -17.829  0.00  0.00           C 0
+ATOM   1384    O ARG A 179      60.768  44.272 -18.772  0.00  0.00           O 0
+ATOM   1386   CG ARG A 179      62.993  46.998 -19.494  0.00  0.00           C 0
+ATOM   1392    N GLN A 180      61.962  44.130 -16.876  0.75  1.09           N 0
+ATOM   1354    O ARG A 176      64.208  45.421 -15.039  0.66  2.14           O 0
+ATOM   1399  NE2 GLN A 180      66.365  41.813 -15.854  0.00  0.00           N 0
+ATOM   1352   CA ARG A 176      65.244  47.451 -14.282  0.00  0.00           C 0
+ATOM   1393   CA GLN A 180      62.035  42.682 -16.854  0.00  0.00           C 0
+ATOM   1421   CB ALA A 183      60.764  41.864 -21.188  0.00  0.00           C 0
+ATOM   1397   CG GLN A 180      63.993  41.290 -15.923  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    21:
+HEADER 0  - Pocket Score                      : -0.1185
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.0752
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6607
+HEADER 5  - Mean B-factor of pocket residues  : 0.3155
+HEADER 6  - Hydrophobicity Score              : 7.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.7143
+HEADER 9  - Pocket volume (Monte Carlo)       : 256.4503
+HEADER 10  -Pocket volume (convex hull)       : 6.6386
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   2185  CG2 VAL A 305      16.297  65.874  33.020  0.00  0.00           C 0
+ATOM    940  NH1 ARG A 128      13.014  64.523  36.146  0.00  0.00           N 1
+ATOM   2184  CG1 VAL A 305      14.139  67.087  32.702  0.00  0.00           C 0
+ATOM   2180   CA VAL A 305      15.198  65.893  30.745  0.00  0.00           C 0
+ATOM   2182    O VAL A 305      12.962  65.759  29.993  0.61  3.21           O 0
+ATOM   2210   CG GLN A 308      10.398  63.468  28.507  0.00  0.00           C 0
+ATOM    941  NH2 ARG A 128      10.877  64.642  35.342  0.52  5.47           N 0
+ATOM   2213  OE1 GLN A 308       8.547  63.107  29.914  0.00  0.00           O 0
+ATOM   2217    O GLN A 309      16.142  60.686  29.007  0.00  0.00           O 0
+ATOM    939   CZ ARG A 128      11.974  65.237  35.722  0.00  0.00           C 0
+ATOM   2235  CG2 VAL A 311      18.418  62.324  32.263  0.00  0.00           C 0
+ATOM   1098  OD2 ASP A 148      17.071  63.895  36.031  0.67  1.07           O 1
+ATOM   1097  OD1 ASP A 148      17.856  62.004  36.755  0.43  7.50           O 0
+ATOM   2171    O ARG A 304      15.393  64.300  28.615  0.00  0.00           O 0
+ATOM   2206   CA GLN A 308      12.640  62.552  27.910  0.00  0.00           C 0
+ATOM   2209   CB GLN A 308      11.139  62.325  27.876  0.00  0.00           C 0
+ATOM   2208    O GLN A 308      12.880  60.391  26.815  0.00  0.00           O 0
+ATOM   2207    C GLN A 308      13.415  61.431  27.228  0.00  0.00           C 0
+TER
+END

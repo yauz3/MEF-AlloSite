@@ -1,0 +1,35 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0606
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    17
+HEADER 3  - Mean alpha-sphere radius          : 3.6065
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.3867
+HEADER 5  - Mean B-factor of pocket residues  : 0.5499
+HEADER 6  - Hydrophobicity Score              : 29.1111
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.8889
+HEADER 9  - Pocket volume (Monte Carlo)       : 85.3361
+HEADER 10  -Pocket volume (convex hull)       : 0.7075
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 3.0000
+HEADER 13 - Number of apolar alpha sphere     :     4
+HEADER 14 - Proportion of apolar alpha sphere : 0.2353
+ATOM   5968   OG SER B 330      10.616  -7.444  75.023  0.82  1.07           O 0
+ATOM   5957    C LEU B 329      11.864  -8.146  71.317  0.00  0.00           C 0
+ATOM   5949    O LYS B 328      14.564  -5.646  70.618  0.70  1.07           O 0
+ATOM   5941    O MET B 327      17.047  -7.961  71.908  0.68  3.21           O 0
+ATOM   5931   CB ARG B 326      14.047 -11.139  73.790  0.00  0.00           C 0
+ATOM   5967   CB SER B 330      10.662  -8.670  74.302  0.00  0.00           C 0
+ATOM   1855  NH2 ARG A 245      12.668  -4.312  77.165  0.76  3.28           N 0
+ATOM   5750    O ILE B 304      11.098  -4.781  71.554  0.00  0.00           O 0
+ATOM   1489  CG2 VAL A 200      14.019  -7.793  77.711  0.00  0.00           C 0
+ATOM   5770  ND2 ASN B 306      17.727  -4.215  75.150  0.63  5.47           N 0
+ATOM   1488  CG1 VAL A 200      15.989  -9.342  77.726  0.00  0.00           C 0
+ATOM   5768   CB ASN B 306      16.729  -3.958  72.966  0.00  0.00           C 0
+ATOM   5764    N ASN B 306      14.798  -3.260  71.672  0.61  1.09           N 0
+TER
+END

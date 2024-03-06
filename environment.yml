@@ -1,0 +1,14 @@
+name: mef_allosite
+channels:
+  - conda-forge
+  - schrodinger
+dependencies:
+  - python=3.7.12
+  - biopython
+  - ca-certificates
+  - openssl
+  - pymol
+  - vtk
+  - certifi
+  - pymol-open-source
+prefix: /home/yavuz/anaconda3/envs/mef_allosite

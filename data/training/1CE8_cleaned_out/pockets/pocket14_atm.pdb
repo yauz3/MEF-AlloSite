@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    14:
+HEADER 0  - Pocket Score                      : 0.0232
+HEADER 1  - Drug Score                        : 0.0003
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 3.7939
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5206
+HEADER 5  - Mean B-factor of pocket residues  : 0.3733
+HEADER 6  - Hydrophobicity Score              : 25.8000
+HEADER 7  - Polarity Score                    :     7
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 200.8416
+HEADER 10  -Pocket volume (convex hull)       : 7.5316
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1053
+ATOM   7682   CA GLY A1008      13.891   7.409  51.431  0.00  0.00           C 0
+ATOM   7659    O ILE A1005      14.950  10.531  49.761  0.42  1.07           O 0
+ATOM   7911   CB TYR A1036      16.337  13.485  52.339  0.00  0.00           C 0
+ATOM   7910    O TYR A1036      17.530  12.301  54.614  0.00  0.00           O 0
+ATOM   7934  CG2 VAL A1038      19.345  10.116  51.684  0.00  0.00           C 0
+ATOM   7697    O TYR A1010      18.702   6.395  51.708  0.48  5.36           O 0
+ATOM   7711  CG2 THR A1011      19.591   3.481  53.696  0.00  0.00           C 0
+ATOM   7147   CG LYS A 940      21.884   4.095  57.110  0.00  0.00           C 0
+ATOM   7149   CE LYS A 940      20.957   5.336  59.117  0.00  0.00           C 0
+ATOM   7707   CA THR A1011      20.964   5.075  52.420  0.00  0.00           C 0
+ATOM   7131   CB THR A 938      23.028  10.041  57.960  0.00  0.00           C 0
+ATOM   7922    O LYS A1037      20.870  11.099  55.719  0.00  0.00           O 0
+ATOM   7130    O THR A 938      23.461   7.223  57.475  0.51  1.07           O 0
+ATOM   7929   CA VAL A1038      21.336  10.549  53.097  0.00  0.00           C 0
+ATOM   7709    O THR A1011      23.159   5.903  52.939  0.72  1.07           O 0
+ATOM   7667    O LYS A1006      11.772  11.357  50.865  0.38  5.36           O 0
+ATOM   7913  CD1 TYR A1036      14.015  14.405  52.561  0.00  0.00           C 0
+TER
+END

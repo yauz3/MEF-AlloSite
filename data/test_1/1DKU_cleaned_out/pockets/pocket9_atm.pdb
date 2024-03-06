@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     9:
+HEADER 0  - Pocket Score                      : -0.0450
+HEADER 1  - Drug Score                        : 0.1049
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8707
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5413
+HEADER 5  - Mean B-factor of pocket residues  : 0.8624
+HEADER 6  - Hydrophobicity Score              : 37.7143
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 225.9998
+HEADER 10  -Pocket volume (convex hull)       : 10.4365
+HEADER 11 - Charge Score                      :     2
+HEADER 12 - Local hydrophobic density Score   : 21.0000
+HEADER 13 - Number of apolar alpha sphere     :    22
+HEADER 14 - Proportion of apolar alpha sphere : 1.0000
+ATOM   4538   CB PHE B 315      27.063  59.648  72.124  0.00  0.00           C 0
+ATOM   3413   CG PRO B 154      30.167  53.740  71.521  0.00  0.00           C 0
+ATOM   4536    C PHE B 315      28.595  58.795  73.918  0.00  0.00           C 0
+ATOM   4535   CA PHE B 315      27.326  58.537  73.150  0.00  0.00           C 0
+ATOM   3406  CG1 VAL B 153      32.984  51.662  67.600  0.00  0.00           C 0
+ATOM   3636   CB LYS B 183      34.115  55.430  65.267  0.00  0.00           C 0
+ATOM   3635    O LYS B 183      36.356  54.583  67.511  0.73  5.36           O 0
+ATOM   3405   CB VAL B 153      31.526  51.855  67.490  0.00  0.00           C 0
+ATOM   3394   CG MET B 151      27.127  56.119  67.488  0.00  0.00           C 0
+ATOM   4540  CD1 PHE B 315      25.944  58.770  70.084  0.00  0.00           C 0
+ATOM   3666   CB ARG B 187      37.117  53.557  71.196  0.00  0.00           C 0
+ATOM   3408    N PRO B 154      30.763  51.687  70.587  0.00  0.00           N 0
+ATOM   3668   CD ARG B 187      35.722  52.522  72.967  0.00  0.00           C 0
+ATOM   3637   CG LYS B 183      33.613  56.775  64.683  0.00  0.00           C 0
+ATOM   3638   CD LYS B 183      32.150  56.687  64.251  0.00  0.00           C 0
+ATOM   3409   CA PRO B 154      31.243  51.681  71.975  0.00  0.00           C 0
+ATOM   3393   CB MET B 151      27.249  54.691  67.914  0.00  0.00           C 0
+ATOM   4529    O LEU B 314      26.207  56.258  74.228  0.79  5.36           O 0
+ATOM   3414   CD PRO B 154      29.833  52.806  70.364  0.00  0.00           C 0
+ATOM   3396   CE MET B 151      28.430  55.732  65.049  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    26:
+HEADER 0  - Pocket Score                      : 0.0890
+HEADER 1  - Drug Score                        : 0.0035
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 3.6781
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5904
+HEADER 5  - Mean B-factor of pocket residues  : 0.3564
+HEADER 6  - Hydrophobicity Score              : 40.8000
+HEADER 7  - Polarity Score                    :     2
+HEADER 8  - Amino Acid based volume Score     : 4.8000
+HEADER 9  - Pocket volume (Monte Carlo)       : 236.0006
+HEADER 10  -Pocket volume (convex hull)       : 10.9943
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 7.0000
+HEADER 13 - Number of apolar alpha sphere     :     8
+HEADER 14 - Proportion of apolar alpha sphere : 0.4444
+ATOM   1688   CG ARG A 225      44.849   9.957  20.504  0.00  0.00           C 0
+ATOM   1695   CA GLU A 226      46.686  11.557  16.153  0.00  0.00           C 0
+ATOM   1698   CB GLU A 226      48.150  11.191  15.888  0.00  0.00           C 0
+ATOM   1694    N GLU A 226      45.987  10.448  16.783  0.70  1.09           N 0
+ATOM   1936   CB VAL A 256      46.094   3.244  24.039  0.00  0.00           C 0
+ATOM   1660    N LEU A 222      46.406   4.519  18.686  0.84  1.09           N 0
+ATOM   1690   NE ARG A 225      43.241   8.961  22.070  0.62  8.75           N 0
+ATOM   1666  CD1 LEU A 222      48.675   4.991  21.274  0.00  0.00           C 0
+ATOM   1658  CG1 VAL A 221      42.871   3.444  20.446  0.00  0.00           C 0
+ATOM   1687   CB ARG A 225      45.018   9.009  19.332  0.00  0.00           C 0
+ATOM   1656    O VAL A 221      44.556   5.659  18.078  0.00  0.00           O 0
+ATOM   1665   CG LEU A 222      49.501   5.469  20.082  0.00  0.00           C 0
+ATOM   1655    C VAL A 221      45.111   4.600  18.385  0.00  0.00           C 0
+ATOM   1935    O VAL A 256      43.478   4.845  25.203  0.00  0.00           O 0
+ATOM   1661   CA LEU A 222      47.284   5.688  18.688  0.00  0.00           C 0
+ATOM   1933   CA VAL A 256      45.264   3.260  25.318  0.00  0.00           C 0
+ATOM   1937  CG1 VAL A 256      47.554   3.073  24.384  0.00  0.00           C 0
+ATOM   1663    O LEU A 222      46.915   7.743  17.490  0.00  0.00           O 0
+TER
+END

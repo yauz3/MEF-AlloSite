@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    12:
+HEADER 0  - Pocket Score                      : -0.0742
+HEADER 1  - Drug Score                        : 0.0013
+HEADER 2  - Number of alpha spheres           :    19
+HEADER 3  - Mean alpha-sphere radius          : 4.2284
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6530
+HEADER 5  - Mean B-factor of pocket residues  : 0.8530
+HEADER 6  - Hydrophobicity Score              : -25.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 3.8571
+HEADER 9  - Pocket volume (Monte Carlo)       : 288.5421
+HEADER 10  -Pocket volume (convex hull)       : 10.5554
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 5.0000
+HEADER 13 - Number of apolar alpha sphere     :     6
+HEADER 14 - Proportion of apolar alpha sphere : 0.3158
+ATOM   1412    O LYS A 189      46.278  52.861  37.846  0.24  9.64           O 0
+ATOM   3753   CG ARG B 198      41.514  48.060  42.356  0.00  0.00           C 0
+ATOM   3757  NH1 ARG B 198      41.861  51.754  41.757  0.62  4.37           N 1
+ATOM   1411    C LYS A 189      45.156  53.224  38.164  0.00  0.00           C 0
+ATOM   1410   CA LYS A 189      43.980  53.016  37.240  0.00  0.00           C 0
+ATOM   1414   CG LYS A 189      43.456  51.435  35.288  0.00  0.00           C 0
+ATOM   1413   CB LYS A 189      44.480  52.332  35.979  0.00  0.00           C 0
+ATOM   1385    O ASP A 186      40.482  53.683  36.897  0.60  1.07           O 0
+ATOM   1388  OD1 ASP A 186      38.843  51.629  40.545  0.78  7.50           O 0
+ATOM   1421    O ALA A 190      44.488  53.290  41.901  0.62  1.07           O 0
+ATOM   3738  OD2 ASP B 196      43.375  50.379  46.299  0.57  4.29           O 1
+ATOM   1424   CA PRO A 191      46.424  53.338  43.964  0.00  0.00           C 0
+ATOM   1427   CB PRO A 191      47.843  52.973  44.379  0.00  0.00           C 0
+ATOM   3774  OD1 ASN B 209      47.496  46.799  45.455  0.00  0.00           O 0
+ATOM   3758  NH2 ARG B 198      42.883  52.056  43.780  0.00  0.00           N 0
+ATOM   1423    N PRO A 191      46.591  53.730  42.562  0.00  0.00           N 0
+ATOM   3756   CZ ARG B 198      42.061  51.367  43.011  0.00  0.00           C 0
+ATOM   1420    C ALA A 190      45.617  53.709  41.640  0.00  0.00           C 0
+ATOM   1429   CD PRO A 191      48.018  53.963  42.262  0.00  0.00           C 0
+TER
+END

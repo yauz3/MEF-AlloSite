@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    41:
+HEADER 0  - Pocket Score                      : -0.0507
+HEADER 1  - Drug Score                        : 0.0004
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 4.2154
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5076
+HEADER 5  - Mean B-factor of pocket residues  : 0.7202
+HEADER 6  - Hydrophobicity Score              : 3.2000
+HEADER 7  - Polarity Score                    :     8
+HEADER 8  - Amino Acid based volume Score     : 4.4000
+HEADER 9  - Pocket volume (Monte Carlo)       : 274.8114
+HEADER 10  -Pocket volume (convex hull)       : 11.4272
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.2174
+ATOM   3227    O ASN I 418      26.688  48.747  21.497  0.41  1.07           O 0
+ATOM    307   CG LYS I  53      19.512  51.029  22.194  0.00  0.00           C 0
+ATOM   3219    O LEU I 417      24.155  48.760  18.819  0.62  8.57           O 0
+ATOM    329   OG SER I  56      24.732  48.753  25.063  0.00  0.00           O 0
+ATOM   2332  OE1 GLN I 305      26.423  54.314  20.300  0.60  5.36           O 0
+ATOM   2328   CB GLN I 305      27.241  56.591  22.355  0.00  0.00           C 0
+ATOM   2296    O PRO I 301      27.176  56.290  25.753  0.73  6.43           O 0
+ATOM   2308  OE2 GLU I 302      22.767  57.587  26.840  0.00  0.00           O 1
+ATOM   2297   CB PRO I 301      25.202  54.917  28.144  0.00  0.00           C 0
+ATOM    275  NE1 TRP I  49      19.336  51.300  18.373  0.54  7.66           N 0
+ATOM    303   CA LYS I  53      20.333  49.673  24.218  0.00  0.00           C 0
+ATOM    301   OG SER I  52      22.339  46.334  21.543  0.00  0.00           O 0
+ATOM   3228   CB ASN I 418      26.637  50.393  19.286  0.00  0.00           C 0
+ATOM    328   CB SER I  56      24.511  49.583  26.193  0.00  0.00           C 0
+ATOM    306   CB LYS I  53      19.400  50.772  23.699  0.00  0.00           C 0
+ATOM    308   CD LYS I  53      19.013  52.419  21.815  0.00  0.00           C 0
+ATOM    339  NH1 ARG I  57      18.635  52.759  26.829  0.73  8.75           N 1
+ATOM    305    O LYS I  53      21.009  50.075  26.482  0.47  2.14           O 0
+ATOM    335   CG ARG I  57      21.018  52.509  29.205  0.00  0.00           C 0
+TER
+END

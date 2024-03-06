@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    44:
+HEADER 0  - Pocket Score                      : -0.0628
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.8993
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5390
+HEADER 5  - Mean B-factor of pocket residues  : 0.1241
+HEADER 6  - Hydrophobicity Score              : 8.2857
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 271.4375
+HEADER 10  -Pocket volume (convex hull)       : 16.7450
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 0.0000
+HEADER 13 - Number of apolar alpha sphere     :     1
+HEADER 14 - Proportion of apolar alpha sphere : 0.0455
+ATOM   4032    O ASN A 512       5.205  35.715  -6.991  0.00  0.00           O 0
+ATOM   4054   CB ASN A 515       6.348  35.483  -1.610  0.00  0.00           C 0
+ATOM   4056  ND2 ASN A 515       4.347  35.900  -0.372  0.00  0.00           N 0
+ATOM   4065  OD2 ASP A 516       1.334  33.422  -4.320  0.00  0.00           O 1
+ATOM   4058    N ASP A 516       4.844  32.727  -2.800  0.00  0.00           N 0
+ATOM   4033   CB ASN A 512       5.656  36.870 -10.062  0.00  0.00           C 0
+ATOM   4034   CG ASN A 512       5.965  38.245 -10.636  0.00  0.00           C 0
+ATOM   4036  OD1 ASN A 512       6.661  39.086 -10.037  0.64  4.29           O 0
+ATOM   4429   CB ALA A 563       6.700  38.927  -0.588  0.00  0.00           C 0
+ATOM   4402  OE1 GLN A 559       6.775  44.050  -7.943  0.72  5.36           O 0
+ATOM   4401  NE2 GLN A 559       5.073  44.720  -6.591  0.00  0.00           N 0
+ATOM   4400   CD GLN A 559       6.314  44.329  -6.837  0.00  0.00           C 0
+ATOM   4398   CB GLN A 559       7.843  42.820  -5.588  0.00  0.00           C 0
+ATOM   4397    O GLN A 559       8.618  41.254  -2.683  0.68  5.36           O 0
+ATOM   4050    N ASN A 515       7.266  33.984  -3.341  0.00  0.00           N 0
+ATOM   4024    O LEU A 511       8.667  35.971  -7.205  0.49  3.21           O 0
+ATOM   4403    N ALA A 560       9.689  40.472  -4.540  0.00  0.00           N 0
+ATOM   4030   CA ASN A 512       6.504  36.502  -8.859  0.00  0.00           C 0
+ATOM   4396    C GLN A 559       9.045  41.419  -3.839  0.00  0.00           C 0
+ATOM   4404   CA ALA A 560       9.920  39.147  -3.962  0.00  0.00           C 0
+TER
+END

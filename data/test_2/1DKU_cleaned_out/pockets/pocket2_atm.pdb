@@ -1,0 +1,34 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     2:
+HEADER 0  - Pocket Score                      : 0.0130
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    16
+HEADER 3  - Mean alpha-sphere radius          : 3.5526
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4002
+HEADER 5  - Mean B-factor of pocket residues  : 0.1810
+HEADER 6  - Hydrophobicity Score              : 40.5000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 4.6250
+HEADER 9  - Pocket volume (Monte Carlo)       : 64.8548
+HEADER 10  -Pocket volume (convex hull)       : 0.2764
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.1250
+ATOM    683  CE1 TYR A  96      28.979  73.460  47.599  0.00  0.00           C 0
+ATOM    973    O ASP A 133      28.446  67.409  45.219  0.51  1.07           O 0
+ATOM   1813  CD2 HIS A 253      30.587  70.466  45.199  0.00  0.00           C 0
+ATOM    986    N HIS A 135      27.318  66.469  48.467  0.73  2.19           N 0
+ATOM    690    O TYR A  97      25.040  72.217  48.925  0.58  1.07           O 0
+ATOM    719   CB ALA A 100      25.317  69.451  50.527  0.00  0.00           C 0
+ATOM    687    N TYR A  97      24.949  72.651  45.882  0.58  2.19           N 0
+ATOM    691   CB TYR A  97      23.376  71.145  46.845  0.00  0.00           C 0
+ATOM    979   CA LEU A 134      26.161  66.285  46.370  0.00  0.00           C 0
+ATOM   1619  CD1 ILE A 225      30.905  70.944  50.031  0.00  0.00           C 0
+ATOM   1816  NE2 HIS A 253      29.644  69.918  44.367  0.59  1.09           N 0
+ATOM    681  CD1 TYR A  96      28.545  73.503  46.271  0.00  0.00           C 0
+TER
+END

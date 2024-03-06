@@ -1,0 +1,39 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    19:
+HEADER 0  - Pocket Score                      : 0.0539
+HEADER 1  - Drug Score                        : 0.0000
+HEADER 2  - Number of alpha spheres           :    21
+HEADER 3  - Mean alpha-sphere radius          : 3.9527
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5848
+HEADER 5  - Mean B-factor of pocket residues  : 0.6708
+HEADER 6  - Hydrophobicity Score              : -35.8333
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1667
+HEADER 9  - Pocket volume (Monte Carlo)       : 298.2629
+HEADER 10  -Pocket volume (convex hull)       : 9.1189
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 2.0000
+HEADER 13 - Number of apolar alpha sphere     :     3
+HEADER 14 - Proportion of apolar alpha sphere : 0.1429
+ATOM   6019   NZ LYS L 350     -25.248   5.324  31.175  0.00  0.00           N 1
+ATOM   3947   CB ASN L  96     -24.160   1.663  28.841  0.00  0.00           C 0
+ATOM   3950  OD1 ASN L  96     -25.735   0.638  30.336  0.00  0.00           O 0
+ATOM   3958  OD2 ASP L  97     -26.144   4.512  24.000  0.00  0.00           O 1
+ATOM   3955   CB ASP L  97     -23.927   3.837  24.537  0.00  0.00           C 0
+ATOM   3951    N ASP L  97     -23.547   2.067  26.197  0.00  0.00           N 0
+ATOM   5997   CA LYS L 348     -22.434  10.291  28.252  0.00  0.00           C 0
+ATOM   6001   CG LYS L 348     -23.922  11.446  26.521  0.00  0.00           C 0
+ATOM   5990    O GLU L 347     -23.491  11.673  30.393  0.48  6.43           O 0
+ATOM   6000   CB LYS L 348     -22.811  10.433  26.774  0.00  0.00           C 0
+ATOM   6018   CE LYS L 350     -24.203   6.227  31.733  0.00  0.00           C 0
+ATOM   5999    O LYS L 348     -21.887   7.951  28.116  0.60  1.07           O 0
+ATOM   3957  OD1 ASP L  97     -25.798   2.360  24.264  0.79  2.14           O 0
+ATOM   6016   CG LYS L 350     -22.379   4.963  30.606  0.00  0.00           C 0
+ATOM   3956   CG ASP L  97     -25.393   3.546  24.250  0.00  0.00           C 0
+ATOM   5954  OD2 ASP L 342     -22.544   7.003  25.243  0.62  2.14           O 1
+ATOM   6002   CD LYS L 348     -24.436  11.391  25.090  0.00  0.00           C 0
+TER
+END

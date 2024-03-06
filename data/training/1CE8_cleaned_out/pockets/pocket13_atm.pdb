@@ -1,0 +1,44 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : 0.0270
+HEADER 1  - Drug Score                        : 0.0025
+HEADER 2  - Number of alpha spheres           :    26
+HEADER 3  - Mean alpha-sphere radius          : 3.7617
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6109
+HEADER 5  - Mean B-factor of pocket residues  : 0.2863
+HEADER 6  - Hydrophobicity Score              : 1.7143
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.1429
+HEADER 9  - Pocket volume (Monte Carlo)       : 251.7865
+HEADER 10  -Pocket volume (convex hull)       : 15.8708
+HEADER 11 - Charge Score                      :     3
+HEADER 12 - Local hydrophobic density Score   : 12.7143
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.5385
+ATOM    951   NZ LYS A 125       9.543  23.017  86.729  0.00  0.00           N 1
+ATOM   2104  OE2 GLU A 274       8.240  25.135  87.357  0.74  2.14           O 1
+ATOM   1068   CD LYS A 138       4.993  25.559  88.304  0.00  0.00           C 0
+ATOM   1070   NZ LYS A 138       6.377  24.264  89.989  0.00  0.00           N 1
+ATOM   1038  CG1 VAL A 134       3.695  23.943  82.365  0.00  0.00           C 0
+ATOM    950   CE LYS A 125      10.134  23.213  85.383  0.00  0.00           C 0
+ATOM   1013  NH2 ARG A 131       9.690  18.556  83.783  0.00  0.00           N 0
+ATOM   1037   CB VAL A 134       4.351  24.278  81.042  0.00  0.00           C 0
+ATOM   1006    O ARG A 131       7.882  24.312  80.825  0.65  2.14           O 0
+ATOM   1004   CA ARG A 131       7.848  22.487  79.298  0.00  0.00           C 0
+ATOM   1008   CG ARG A 131       8.540  20.061  79.468  0.00  0.00           C 0
+ATOM   1039  CG2 VAL A 134       3.382  23.793  79.984  0.00  0.00           C 0
+ATOM   1010   NE ARG A 131       9.225  18.966  81.602  0.00  0.00           N 0
+ATOM    948   CG LYS A 125      11.258  22.039  83.414  0.00  0.00           C 0
+ATOM   1040    N ALA A 135       6.475  26.183  82.391  0.00  0.00           N 0
+ATOM   1044   CB ALA A 135       8.586  26.211  83.535  0.00  0.00           C 0
+ATOM   1041   CA ALA A 135       7.148  26.696  83.557  0.00  0.00           C 0
+ATOM    995   NEAARG A 130       4.498  19.178  75.459  0.42  3.28           N 0
+ATOM    991   CGAARG A 130       4.427  21.687  75.825  0.00  0.00           C 0
+ATOM    993   CDAARG A 130       3.714  20.415  75.354  0.00  0.00           C 0
+ATOM   1003    N ARG A 131       7.641  22.448  77.875  0.00  0.00           N 0
+ATOM   1007   CB ARG A 131       8.926  21.520  79.744  0.00  0.00           C 0
+TER
+END

@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    13:
+HEADER 0  - Pocket Score                      : -0.0777
+HEADER 1  - Drug Score                        : 0.0002
+HEADER 2  - Number of alpha spheres           :    30
+HEADER 3  - Mean alpha-sphere radius          : 4.1091
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5313
+HEADER 5  - Mean B-factor of pocket residues  : 0.7198
+HEADER 6  - Hydrophobicity Score              : 28.2222
+HEADER 7  - Polarity Score                    :     4
+HEADER 8  - Amino Acid based volume Score     : 3.3333
+HEADER 9  - Pocket volume (Monte Carlo)       : 195.1392
+HEADER 10  -Pocket volume (convex hull)       : 2.3248
+HEADER 11 - Charge Score                      :    -2
+HEADER 12 - Local hydrophobic density Score   : 4.0000
+HEADER 13 - Number of apolar alpha sphere     :     5
+HEADER 14 - Proportion of apolar alpha sphere : 0.1667
+ATOM   3930  OG1 THR B 231      33.076  41.884  50.329  0.00  0.00           O 0
+ATOM   3928   CB THR B 231      33.782  41.667  51.561  0.00  0.00           C 0
+ATOM   3915    N ALA B 229      29.312  37.331  53.914  0.00  0.00           N 0
+ATOM   3924    N THR B 231      33.283  39.313  51.385  0.39  3.28           N 0
+ATOM   3900    N ASP B 227      26.750  40.133  56.030  0.00  0.00           N 0
+ATOM   3931    N ILE B 232      34.411  39.872  53.889  0.70  1.09           N 0
+ATOM   3916   CA ALA B 229      30.674  37.085  54.410  0.00  0.00           C 0
+ATOM   3908    N THR B 228      26.708  38.072  53.543  0.61  1.09           N 0
+ATOM   3935   CB ILE B 232      33.971  39.851  56.346  0.00  0.00           C 0
+ATOM   3887    O ILE B 225      28.366  43.650  57.217  0.64  6.43           O 0
+ATOM   3898  CG2 ILE B 226      29.065  38.859  58.433  0.00  0.00           C 0
+ATOM   3937  CG2 ILE B 232      33.386  38.518  56.683  0.00  0.00           C 0
+ATOM   3914  OG1 THR B 228      27.930  37.760  50.848  0.52  9.64           O 0
+ATOM   3920    N GLY B 230      31.406  37.224  52.103  0.38  1.09           N 0
+ATOM   3904   CB ASP B 227      25.191  40.354  54.187  0.00  0.00           C 0
+ATOM   3893   CA ILE B 226      27.941  41.022  57.917  0.00  0.00           C 0
+ATOM   3875  OD2 ASP B 223      31.337  45.246  55.830  0.47  9.64           O 1
+ATOM   3897  CG1 ILE B 226      30.051  40.975  59.236  0.00  0.00           C 0
+TER
+END

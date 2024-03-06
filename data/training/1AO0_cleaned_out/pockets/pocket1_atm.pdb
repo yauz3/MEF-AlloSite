@@ -1,0 +1,42 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket     1:
+HEADER 0  - Pocket Score                      : 0.0474
+HEADER 1  - Drug Score                        : 0.0039
+HEADER 2  - Number of alpha spheres           :    23
+HEADER 3  - Mean alpha-sphere radius          : 3.8259
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.6272
+HEADER 5  - Mean B-factor of pocket residues  : 0.5472
+HEADER 6  - Hydrophobicity Score              : 34.5556
+HEADER 7  - Polarity Score                    :     3
+HEADER 8  - Amino Acid based volume Score     : 3.1111
+HEADER 9  - Pocket volume (Monte Carlo)       : 259.7581
+HEADER 10  -Pocket volume (convex hull)       : 5.8477
+HEADER 11 - Charge Score                      :    -1
+HEADER 12 - Local hydrophobic density Score   : 8.1538
+HEADER 13 - Number of apolar alpha sphere     :    13
+HEADER 14 - Proportion of apolar alpha sphere : 0.5652
+ATOM   2017    O ALA A 267      -8.891  16.714  78.389  0.00  0.00           O 0
+ATOM   2201    O ALA A 294     -10.815  11.733  73.677  0.35  7.50           O 0
+ATOM   2047   CB ALA A 271      -9.706  18.857  76.021  0.00  0.00           C 0
+ATOM   2204   CA THR A 295      -9.368  13.736  72.545  0.00  0.00           C 0
+ATOM   2219  CG1 ILE A 297      -7.463  16.292  68.826  0.00  0.00           C 0
+ATOM   2051    O VAL A 272      -8.053  20.484  71.867  0.49  3.21           O 0
+ATOM   2060   CG GLU A 273     -10.881  22.571  68.563  0.00  0.00           C 0
+ATOM   2206    O THR A 295     -10.683  14.277  70.615  0.37  4.29           O 0
+ATOM   2067    O ALA A 274      -7.206  19.341  66.389  0.15  2.14           O 0
+ATOM   2064    N ALA A 274      -7.318  21.263  68.293  0.00  0.00           N 0
+ATOM   2018   CB ALA A 267      -7.359  14.056  77.036  0.00  0.00           C 0
+ATOM   2024   CG GLN A 268     -10.311  12.913  80.957  0.00  0.00           C 0
+ATOM   2202   CB ALA A 294      -8.386  11.164  75.814  0.00  0.00           C 0
+ATOM   2016    C ALA A 267      -8.318  15.673  78.703  0.00  0.00           C 0
+ATOM   2019    N GLN A 268      -8.618  14.995  79.804  0.00  0.00           N 0
+ATOM   2020   CA GLN A 268      -9.736  15.360  80.674  0.00  0.00           C 0
+ATOM   2207   CB THR A 295      -8.303  14.821  72.354  0.00  0.00           C 0
+ATOM   2221  CD1 ILE A 297      -6.813  17.449  69.500  0.00  0.00           C 0
+ATOM   2056   CA GLU A 273      -8.772  22.271  69.928  0.00  0.00           C 0
+ATOM   2208  CG2 THR A 295      -7.757  15.234  73.683  0.00  0.00           C 0
+TER
+END

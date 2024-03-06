@@ -1,0 +1,41 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    22:
+HEADER 0  - Pocket Score                      : 0.0391
+HEADER 1  - Drug Score                        : 0.0001
+HEADER 2  - Number of alpha spheres           :    22
+HEADER 3  - Mean alpha-sphere radius          : 3.9464
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.5275
+HEADER 5  - Mean B-factor of pocket residues  : 0.8316
+HEADER 6  - Hydrophobicity Score              : 27.9000
+HEADER 7  - Polarity Score                    :     6
+HEADER 8  - Amino Acid based volume Score     : 4.1000
+HEADER 9  - Pocket volume (Monte Carlo)       : 257.1523
+HEADER 10  -Pocket volume (convex hull)       : 17.1338
+HEADER 11 - Charge Score                      :     0
+HEADER 12 - Local hydrophobic density Score   : 1.0000
+HEADER 13 - Number of apolar alpha sphere     :     2
+HEADER 14 - Proportion of apolar alpha sphere : 0.0909
+ATOM   1530    O ALA I 206      27.975  27.295  47.140  0.00  0.00           O 0
+ATOM   2818    O SER I 365      22.969  31.513  46.270  0.66  5.36           O 0
+ATOM   2565   NZ LYS I 332      24.094  33.440  48.429  0.00  0.00           N 1
+ATOM   2828  OD2 ASP I 366      26.387  31.828  45.898  0.21  4.29           O 1
+ATOM   2819   CB SER I 365      21.441  28.682  45.859  0.00  0.00           C 0
+ATOM   1571  OG1 THR I 211      23.910  24.711  47.381  0.85  5.36           O 0
+ATOM   1546  ND2 ASN I 208      26.104  25.786  51.598  0.00  0.00           N 0
+ATOM   2807   OH TYR I 363      18.510  28.238  49.841  0.00  0.00           O 0
+ATOM   2805  CE2 TYR I 363      17.999  30.274  48.709  0.00  0.00           C 0
+ATOM   2816   CA SER I 365      21.055  30.159  45.744  0.00  0.00           C 0
+ATOM   1570  CG2 THR I 211      22.652  24.987  45.347  0.00  0.00           C 0
+ATOM   1593  CG2 VAL I 214      23.705  26.695  42.370  0.00  0.00           C 0
+ATOM   2825   CB ASP I 366      25.014  31.186  44.070  0.00  0.00           C 0
+ATOM   1560    O LEU I 210      20.127  25.566  49.833  0.00  0.00           O 0
+ATOM   1566   CA THR I 211      21.481  24.686  47.561  0.00  0.00           C 0
+ATOM   2820   OG SER I 365      20.369  27.902  46.373  0.00  0.00           O 0
+ATOM   1561   CB LEU I 210      21.526  24.992  52.346  0.00  0.00           C 0
+ATOM   1547  OD1 ASN I 208      24.313  24.528  51.148  0.00  0.00           O 0
+ATOM   2655    O PHE I 344      18.074  34.517  48.725  0.37  6.43           O 0
+TER
+END

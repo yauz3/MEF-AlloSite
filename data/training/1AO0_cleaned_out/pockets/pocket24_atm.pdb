@@ -1,0 +1,40 @@
+HEADER
+HEADER This is a pdb format file writen by the programm fpocket.                 
+HEADER It represents the atoms contacted by the voronoi vertices of the pocket.  
+HEADER                                                                           
+HEADER Information about the pocket    24:
+HEADER 0  - Pocket Score                      : -0.1289
+HEADER 1  - Drug Score                        : 0.0056
+HEADER 2  - Number of alpha spheres           :    18
+HEADER 3  - Mean alpha-sphere radius          : 4.2315
+HEADER 4  - Mean alpha-sphere Solvent Acc.    : 0.4506
+HEADER 5  - Mean B-factor of pocket residues  : 0.8968
+HEADER 6  - Hydrophobicity Score              : 13.0000
+HEADER 7  - Polarity Score                    :     5
+HEADER 8  - Amino Acid based volume Score     : 5.0000
+HEADER 9  - Pocket volume (Monte Carlo)       : 326.0325
+HEADER 10  -Pocket volume (convex hull)       : 5.7628
+HEADER 11 - Charge Score                      :     1
+HEADER 12 - Local hydrophobic density Score   : 13.0000
+HEADER 13 - Number of apolar alpha sphere     :    14
+HEADER 14 - Proportion of apolar alpha sphere : 0.7778
+ATOM   3844  CD1 LEU B  49      27.385   3.355  64.440  0.00  0.00           C 0
+ATOM   3845  CD2 LEU B  49      26.023   3.283  62.331  0.00  0.00           C 0
+ATOM   5806    N ARG B 311      25.939  -4.038  66.446  0.00  0.00           N 0
+ATOM   5803   CA GLY B 310      24.240  -2.937  67.819  0.00  0.00           C 0
+ATOM   3700   CD GLN B  28      22.799   1.011  59.762  0.00  0.00           C 0
+ATOM   3699   CG GLN B  28      23.978   1.906  60.020  0.00  0.00           C 0
+ATOM   3698   CB GLN B  28      25.296   1.247  59.681  0.00  0.00           C 0
+ATOM   5811   CG ARG B 311      28.320  -3.524  64.938  0.00  0.00           C 0
+ATOM   2314  CE1 TYR A 308      22.098   3.635  63.328  0.00  0.00           C 0
+ATOM   2312  CD1 TYR A 308      22.773   4.647  64.027  0.00  0.00           C 0
+ATOM   5775    O ARG B 307      19.887   1.025  70.701  0.32  7.50           O 0
+ATOM   2301   CD ARG A 307      18.169   3.139  64.935  0.00  0.00           C 0
+ATOM   3843   CG LEU B  49      27.412   3.367  62.931  0.00  0.00           C 0
+ATOM   5813   NE ARG B 311      30.197  -2.190  64.149  0.78  3.28           N 0
+ATOM   3869  OE2 GLU B  52      30.355   1.427  65.106  0.67  7.50           O 1
+ATOM   3697    O GLN B  28      27.916   0.733  58.982  0.35  7.50           O 0
+ATOM   2298    O ARG A 307      20.632   5.775  67.426  0.17  6.43           O 0
+ATOM   2300   CG ARG A 307      18.507   4.201  66.009  0.00  0.00           C 0
+TER
+END
