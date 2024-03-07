@@ -6,6 +6,11 @@ Note that the code was implemented and tested on a Linux operating system only.
 
 <h2>How to set up the environment</h2>
 
+**Before installation**
+-Please put MathFeature files under the bin directory.
+
+MathFeature:
+https://github.com/Bonidia/MathFeature
 
 **1- Conda Installation**:
 -We have provided an Anaconda environment file for easy set-up. If you do not have Anaconda installed, you can get Miniconda from [HERE](https://docs.anaconda.com/free/miniconda/).
