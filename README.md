@@ -95,7 +95,7 @@ python3 5-Prepare_Other_Features.py
 ```bash
 python3 6-train_a_model.py
 ```
-Once the script is completed, it will print like "03_07_2024_19:50:28", which is the --model option for 7-Make_predictions.py
+Once the script is completed, it will print like "03_07_2024_19:50:28", which is the INPUT for --model option of 7-Make_predictions.py
 
 
 - The script uses models to generate forecasts on three separate occasions and subsequently calculates the average of these predictions to provide the final performance metrics, such as F1 score, Average Precision and ROC AUC score.
