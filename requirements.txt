@@ -7,4 +7,3 @@ PyBioMed
 mxnet
 pandas
 scipy
-python-igraph
