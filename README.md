@@ -4,17 +4,22 @@ This readme file documents all of the required steps to run MEF-AlloSite.
 
 Note that the code was implemented and tested on a Linux operating system only.
 
-<h2>How to set up the environment</h2>
-
 **Before installation**
 
 (i)-MathFeature
 
 -Please put MathFeature files under the bin directory.
 
+Google Drive:
+
+https://drive.google.com/drive/folders/1JtvuKyamoojxsKxbPBIM8x5e1SN6kLjR?usp=sharing
+
 MathFeature:
 
-https://github.com/Bonidia/MathFeature
+https://github.com/Bonidia/MathFeature 
+
+<h2>How to set up the environment</h2>
+
 
 **1- Conda Installation**:
 -We have provided an Anaconda environment file for easy set-up. If you do not have Anaconda installed, you can get Miniconda from [HERE](https://docs.anaconda.com/free/miniconda/).
