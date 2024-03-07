@@ -5,3 +5,4 @@ numpy
 xlsxwriter
 PyBioMed
 mxnet
+pandas
