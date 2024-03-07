@@ -35,6 +35,7 @@ from sklearn.metrics import roc_auc_score
 from sklearn.metrics import recall_score, precision_score,accuracy_score
 from tabulate import tabulate
 import statistics
+import argparse
 
 # turn off warnings
 warnings.filterwarnings('ignore')
@@ -75,7 +76,7 @@ def split_training_set(filename,test_number):
         split_data.to_csv('%s.csv' % target, header=True)
 
 
-def validation_models(model_path, test_list, test_number, repeat_number=3, model_selection="MEF-AlloSite"):
+def validation_models(model_path, test_list, test_number,model_info, repeat_number=3, model_selection="MEF-AlloSite"):
     fpocket_features = ["Label", 'Score', 'Druggability Score', 'Number of Alpha Spheres', "Total SASA",
                         'Polar SASA', 'Apolar SASA',
                         'Volume', 'Mean local hydrophobic density', 'Mean alpha sphere radius',
@@ -108,11 +109,11 @@ def validation_models(model_path, test_list, test_number, repeat_number=3, model
 
 
     for repeat in range(0,repeat_number):
-        passer = model_fn(f"{model_path}/{repeat}_passer")
-        gradient_boruta_model = model_fn(f"{model_path}/{repeat}_gradient_boruta")
-        random_boruta_model = model_fn(f"{model_path}/{repeat}_random_boruta")
-        adaboosting_model = model_fn(f"{model_path}/{repeat}_adaboosting")
-        gradient_boosting_model = model_fn(f"{model_path}/{repeat}_gradient_boosting")
+        passer = model_fn(f"{model_path}/{model_info}_{repeat}_passer")
+        gradient_boruta_model = model_fn(f"{model_path}/{model_info}_{repeat}_gradient_boruta")
+        random_boruta_model = model_fn(f"{model_path}/{model_info}_{repeat}_random_boruta")
+        adaboosting_model = model_fn(f"{model_path}/{model_info}_{repeat}_adaboosting")
+        gradient_boosting_model = model_fn(f"{model_path}/{model_info}_{repeat}_gradient_boosting")
 
         average_pre_list = []
         roc_score_list = []
@@ -165,26 +166,25 @@ def validation_models(model_path, test_list, test_number, repeat_number=3, model
 
     return statistics.mean(average_ave_pre),statistics.mean(average_roc_score),statistics.mean(average_f1_1)
 
-def validate_on_a_test(test_list,filename,test_number):
-    #split_training_set(filename=filename,
-    #                   test_number=test_number)
-
+def validate_on_a_test(test_list,model_info,test_number):
     #
     mef_av_pre,mef_av_roc,mef_av_f1=(validation_models(model_path=f"{current_dir}/AutogluonModels",
                             test_list=test_list,
                             test_number=test_number,
+                            model_info=model_info,
                             repeat_number=3,
                             model_selection="MEF-AlloSite")
           )
     par_av_pre,par_av_roc,par_av_f1=(validation_models(model_path=f"{current_dir}/AutogluonModels",
                             test_list=test_list,
                             test_number=test_number,
+                            model_info=model_info,
                             repeat_number=3,
                             model_selection="PaSSer2.0")
           )
 
     print("In our experiments, we repeated 51 times, then average scores")
-    print(f"The average metric scores for 3 RUN (Test {test_number}):")
+    print(f"The average metric scores for 3 RUNS (Test {test_number}):")
     results = [
         ("MEF-AlloSite", mef_av_pre, mef_av_roc, mef_av_f1),
         ("PaSSer2.0", par_av_pre, par_av_roc, par_av_f1)
@@ -197,13 +197,22 @@ def validate_on_a_test(test_list,filename,test_number):
     print(tabulate(results, headers=headers, tablefmt="pretty"))
 
 
+def make_predctions(model_info):
+    validate_on_a_test(test_list=test_1,
+                       model_info=model_info,
+                       test_number=1)
+    validate_on_a_test(test_list=test_2,
+                       model_info=model_info,
+                       test_number=2)
+    validate_on_a_test(test_list=test_3,
+                       model_info=model_info,
+                       test_number=3)
 
-validate_on_a_test(test_list=test_1,
-                   filename="test_1_ready",
-                   test_number=1)
-validate_on_a_test(test_list=test_2,
-                   filename="test_2_ready",
-                   test_number=2)
-validate_on_a_test(test_list=test_3,
-                   filename="test_3_ready",
-                   test_number=3)
+
+
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Make predictions using the specified model.")
+    parser.add_argument("--model", help="Model information to be used for prediction", required=True)
+    args = parser.parse_args()
+
+    make_predctions(args.model)
