@@ -7,7 +7,7 @@ Note that the code was implemented and tested on a Linux operating system only.
 <h2>How to set up the environment</h2>
 
 **Before installation**
-
+(i)-MathFeature
 -Please put MathFeature files under the bin directory.
 
 MathFeature:
