@@ -5,5 +5,3 @@ numpy
 xlsxwriter
 PyBioMed
 mxnet
-pandas
-scipy
