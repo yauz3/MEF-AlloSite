@@ -33,7 +33,7 @@ import random
 import numpy as np
 import mxnet as mx
 from autogluon.tabular import TabularPredictor
-
+from datetime import datetime
 
 # -Training proteins:
 training=['1AO0', '1RX2', '1DD7', '3IAD', '2CLH', '3AO1', '3IYD', '1V4S', '1I7S', '2YC3', '3MK6', '3IDB', '1Z8D', '3I0R', '2D5Z', '3F3V', '3EPS', '1EFA', '3MKS', '2EWN', '1XJE', '2BU2', '1COZ', '1HAK', '3GR4', '3RZ3', '1EGY', '2ZMF', '1PJ3', '3PTZ', '2XO8', '1SHJ', '1DB1', '1CE8', '1S9J', '1QTI', '2Q5O', '2OI2', '1ESM', '2POC', '2X1L', '1XTU', '2BND', '2I80', '3GCP', '2AL4', '1X88', '3O2M', '3CQD', '3FIG', '3HO8', '1LTH', '1FAP', '3HV8', '3GVU', '3PJG', '3H30', '1T49', '1RD4', '2V92', '2C2B', '3FZY', '3NJQ', '3UO9', '1W96', '2GS7', '3IJG', '1ZDS', '3F6G', '2PUC', '2R1R', '2VGI', '1KP8', '3OS8', '1W25', '3PEE', '3QEL', '1LDN', '1XLS', '1PFK', '3IRH', '1FTA', '2QF7', '3BEO', '3ZLK', '4AVB', '1QW7', '4B9Q', '1TUG', '1PEQ']
@@ -145,7 +145,7 @@ def train_a_model(different_split_dictionary):
         train_data_fpocket = TabularDataset(train_data_fpocket)
         # Once auto_stacking is True, Autogluon automatically select validation data from training set.
         TabularPredictor(label="Label", eval_metric='roc_auc').fit(
-            train_data_fpocket, auto_stack=True,
+            train_data_fpocket, auto_stack=True,time_limit=10
         )
         ####################################################################################################################
         ####################################################################################################################
@@ -159,7 +159,7 @@ def train_a_model(different_split_dictionary):
         train_data_gra_bor = TabularDataset(train_data_gra_bor)
         # Once auto_stacking is True, Autogluon automatically select validation data from training set.
         TabularPredictor(label="Label", eval_metric='roc_auc').fit(
-            train_data_gra_bor, auto_stack=True,
+            train_data_gra_bor, auto_stack=True,time_limit=10
         )
         ###################################################################################################################
         # 2- Random Forest + Boruta features to train the second model
@@ -174,7 +174,7 @@ def train_a_model(different_split_dictionary):
         train_data_ran_bor = TabularDataset(train_data_ran_bor)
         # Once auto_stacking is True, Autogluon automatically select validation data from training set.
         TabularPredictor(label="Label", eval_metric='roc_auc').fit(
-            train_data_ran_bor, auto_stack=True,
+            train_data_ran_bor, auto_stack=True,time_limit=10
         )
         ####################################################################################################################
         # 3- Adaboosting model based feature selection to train the third model
@@ -186,7 +186,7 @@ def train_a_model(different_split_dictionary):
         train_data_ada = TabularDataset(train_data_ada)
         # Once auto_stacking is True, Autogluon automatically select validation data from training set.
         TabularPredictor(label="Label", eval_metric='roc_auc').fit(
-            train_data_ada, auto_stack=True,
+            train_data_ada, auto_stack=True,time_limit=10
         )
         ####################################################################################################################
         # 3- Gradient boosting model based feature selection to train the third model
@@ -201,26 +201,39 @@ def train_a_model(different_split_dictionary):
         train_data_gra_boo = TabularDataset(train_data_gra_boo)
         # Once auto_stacking is True, Autogluon automatically select validation data from training set.
         TabularPredictor(label="Label", eval_metric='roc_auc').fit(
-            train_data_gra_boo, auto_stack=True,
+            train_data_gra_boo, auto_stack=True,time_limit=10
         )
 
 
 def rename_models(model_path):
-    model_list = os.listdir(
-        model_path)
+    unwanted_models = ['passer', '_gradient_boruta', '_random_boruta', '_adaboosting', '_gradient_boosting']
+    # Model dizinindeki tüm dosyaları alın
+    model_list = os.listdir(model_path)
+
+    # İstenmeyen modelleri kaldırın
+    model_list = [model for model in model_list if
+                           not any(unwanted_model in model for unwanted_model in unwanted_models)]
+
     os.chdir(model_path)
     # During the training, we trained passer first then our four models. That's why we renamed them
+    date_info = datetime.now().strftime("%m_%d_%Y_%H:%M:%S")
     repeat_number = 0
     # Her tekrar için 5 modeli birlikte işleyin
     for repeat, _ in enumerate(range(0, len(model_list), 5)):
         # Model isimlerini daha anlamlı bir şekilde yeniden adlandırın
-        os.rename(sorted(model_list)[repeat * 5], f"{repeat_number}_passer")
-        os.rename(sorted(model_list)[repeat * 5 + 1], f"{repeat_number}_gradient_boruta")
-        os.rename(sorted(model_list)[repeat * 5 + 2], f"{repeat_number}_random_boruta")
-        os.rename(sorted(model_list)[repeat * 5 + 3], f"{repeat_number}_adaboosting")
-        os.rename(sorted(model_list)[repeat * 5 + 4], f"{repeat_number}_gradient_boosting")
+        os.rename(sorted(model_list)[repeat * 5], f"{date_info}_{repeat_number}_passer")
+        os.rename(sorted(model_list)[repeat * 5 + 1], f"{date_info}_{repeat_number}_gradient_boruta")
+        os.rename(sorted(model_list)[repeat * 5 + 2], f"{date_info}_{repeat_number}_random_boruta")
+        os.rename(sorted(model_list)[repeat * 5 + 3], f"{date_info}_{repeat_number}_adaboosting")
+        os.rename(sorted(model_list)[repeat * 5 + 4], f"{date_info}_{repeat_number}_gradient_boosting")
         # Bir sonraki tekrara geçin
         repeat_number += 1
+    print("#####################")
+    print("↓↓ The date is the input of prediction script ↓↓")
+    print(date_info)
+
+
+    return date_info
 
 
 
