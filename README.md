@@ -58,7 +58,7 @@ pip install -r requirements.txt
 **4 - Make predictions**
 - CSV files for Test 1, 2, and 3 exist in the repo as well as trained models. Therefore, you can make predictions on our test cases by executing:
 ```bash
-python3 7-Make_predictions.py
+python3 7-Make_predictions.py --model provided
 ```
 
 **To train new models/or make predictions on novel proteins**
@@ -95,10 +95,12 @@ python3 5-Prepare_Other_Features.py
 ```bash
 python3 6-train_a_model.py
 ```
+Once the script is completed, it will print like "03_07_2024_19:50:28", which is the --model option for 7-Make_predictions.py
+
 
 - The script uses models to generate forecasts on three separate occasions and subsequently calculates the average of these predictions to provide the final performance metrics, such as F1 score, Average Precision and ROC AUC score.
 ```bash
-python3 7-Make_predictions.py
+python3 7-Make_predictions.py --model 03_07_2024_19:50:28
 ```
 
 **Simple output**
